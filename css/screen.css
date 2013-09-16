@@ -65,11 +65,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   outline: none;
   text-align: center;
   text-decoration: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
   background: #990000;
   color: white;
   display: inline-block;
@@ -88,11 +83,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   outline: none;
   text-align: center;
   text-decoration: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   background-color: red;
@@ -110,6 +100,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: -moz-linear-gradient(#252525 60%, #000000);
   background-image: -o-linear-gradient(#252525 60%, #000000);
   background-image: linear-gradient(#252525 60%, #000000);
+}
+
+button {
+  border: 0;
 }
 
 body {
@@ -714,6 +708,10 @@ footer a:hover {
   margin-right: 10px;
 }
 
+.prd-details-wrap {
+  overflow: hidden;
+}
+
 .prd-details {
   float: left;
   padding-left: 40px;
@@ -749,36 +747,125 @@ footer a:hover {
   color: #3399cc;
 }
 .prd-rating-wrap a:hover {
-  color: red;
+  color: #cc0021;
 }
 
-.prd-buy {
-  border: 1px solid #ccc;
-  padding: 20px 10px;
+.prd-buy-wrap {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0;
   margin: 0 0 20px;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #ffffff), color-stop(100%, #f5f5f5));
-  background-image: -webkit-linear-gradient(#ffffff 60%, #f5f5f5);
-  background-image: -moz-linear-gradient(#ffffff 60%, #f5f5f5);
-  background-image: -o-linear-gradient(#ffffff 60%, #f5f5f5);
-  background-image: linear-gradient(#ffffff 60%, #f5f5f5);
+  overflow: hidden;
 }
-.prd-buy li {
-  display: inline;
+
+.prd-buy-lt {
+  float: left;
+  width: 50%;
 }
-.prd-buy span {
-  font-size: 2em;
+
+.prd-buy-rt {
+  background-color: #f8f3dd;
+  float: right;
+  padding: 10px 10px 20px;
+  width: 40%;
+}
+
+.prd-price {
+  margin: 0 0 10px;
+  color: #cc0021;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
+.prd-blts {
+  margin: 20px 0 0;
+}
+
 .prd-social-share {
-  display: none;
+  background-color: whitesmoke;
+  float: right;
+  padding: 10px;
+  text-align: center;
+}
+.prd-social-share li {
+  margin: 0 0 10px;
+}
+.prd-social-share li:last-child {
+  margin-bottom: 0;
+}
+.prd-social-share a {
+  color: #a1a1a1;
 }
 
 .prd-info {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
   clear: both;
+  overflow: hidden;
+  margin: 30px 0;
+  padding: 20px 0;
 }
 .prd-info li {
+  float: left;
+  border-left: 1px dotted #ebebeb;
+  width: 33%;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.prd-info li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+.prd-info li p:nth-child(1) {
+  margin: 0 0 10px;
+}
+.prd-info strong {
+  font: 800 1.25em/1em "Roboto", Myriad Pro, sans-serif;
+  color: #990000;
+}
+
+.customer-reviews-header {
+  background-color: #f8f3dd;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.cust-rev-lt {
+  float: left;
+  padding-left: 10px;
+  width: 70%;
+}
+.cust-rev-lt ul {
+  border-right: 1px solid #ecdd8a;
+  float: left;
+  margin: 0 30px 0 0;
+  padding: 0 30px 0 0;
+}
+.cust-rev-lt p {
+  font: 800 1.75em/1em "Roboto", Myriad Pro, sans-serif;
+  color: #990000;
+  text-transform: uppercase;
+}
+
+.cust-rev-rt {
+  float: right;
+  padding-right: 10px;
+  text-align: right;
+  width: 25%;
+}
+.cust-rev-rt li {
   display: inline;
+  padding-left: 10px;
+}
+.cust-rev-rt li:first-child {
+  text-transform: uppercase;
+}
+.cust-rev-rt .btn-red {
+  font-size: 1em;
 }
 
 /* Landscape phone to portrait tablet */
@@ -950,7 +1037,7 @@ footer a:hover {
   }
 
   .products-box li {
-    margin-left: 16px;
+    margin-left: 24px;
     width: 15%;
   }
   .products-box li:first-child {

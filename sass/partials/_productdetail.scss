@@ -18,7 +18,7 @@
 }
 
 .prd-details-wrap {
-
+	overflow: hidden;
 }
 
 .prd-details {
@@ -59,19 +59,36 @@
 	}
 }
 
-.prd-buy {
-	border: 1px solid #ccc;
-	padding: 20px 10px;
-	margin: 0 0 20px;
-	@include background-image(linear-gradient(white 60%, $lightgrey));
 
-	li {
-		display: inline;
-	}
-	span {
-		font-size: 2em;
-		font-weight: bold;
-	}
+.prd-buy-wrap {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 30px 0;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+
+.prd-buy-lt {
+	float: left;
+	width: 50%;
+}
+
+.prd-buy-rt {
+	background-color: $cream;
+	float: right;
+	padding: 10px 10px 20px;
+	width: 40%;
+}
+
+.prd-price {
+	margin: 0 0 10px;
+	color: $red;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.prd-blts {
+	margin: 20px 0 0;
 }
 
 .backorder {
@@ -83,26 +100,88 @@
 }
 
 .prd-social-share {
-	display: none;
+	background-color: $lightgrey;
+	float: right;
+	padding: 10px;
+	text-align: center;
+	li {
+		margin: 0 0 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	a {
+		color: $darkgrey;
+	}
 }
 
 .prd-info {
+	border-top: 1px solid $grey;
+	border-bottom: 1px solid $grey;
 	clear: both;
+	overflow: hidden;
+	margin: 30px 0;
+	padding: 20px 0;
 	li {
-		display: inline;
+		float: left;
+		border-left: 1px dotted $grey;
+		width: 33%;
+		padding: 0 20px;
+		@include box-sizing(border-box);
+		&:first-child {
+			padding-left: 0;
+			border-left: none;
+		}
+		p:nth-child(1) {
+			margin: 0 0 10px;
+		}
+	}
+	strong {
+		font: $fontweight 1.25em/1em $font;
+		color: $maroon;
 	}
 }
 
 .customer-reviews-header {
-
+	background-color: $cream;
+	border-bottom: 1px solid $grey;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	overflow: hidden;
 }
 
 .cust-rev-lt {
-
+	float: left;
+	padding-left: 10px;
+	width: 70%;
+	ul {
+		border-right: 1px solid $yellow;
+		float: left;
+		margin: 0 30px 0 0;
+		padding: 0 30px 0 0;
+	}
+	p {
+		font: $fontweight 1.75em/1em $font;
+		color: $maroon;
+		text-transform: uppercase;
+	}
 }
 
 .cust-rev-rt {
-
+	float: right;
+	padding-right: 10px;
+	text-align: right;
+	width: 25%;
+	li {
+		display: inline;
+		padding-left: 10px;
+		&:first-child {
+			text-transform: uppercase;
+		}
+	}
+	.btn-red {
+		font-size: 1em;
+	}
 }
 
 .customer-reviews {

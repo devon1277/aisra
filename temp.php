@@ -53,29 +53,34 @@
 
                         <div>
                             <div class="prd-buy-wrap">
-                                <ul class="prd-buy">
-                                    <li><span>Today: $00.00</span></li>
-                                    <li>
-                                        <label for="quantity">Qty:</label>
-                                        <select name="" id="quantity">
-                                            <option value="">0</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                            <option value="">3</option>
-                                        </select>
-                                    </li>
-                                    <li>
-                                        <button>Add To Cart</button>
-                                    </li>
-                                </ul>
-                                <p>
-                                    <strong>Retail Value:</strong> $000.00 (Show only if item is on sale)
-                                </p>
-                                <ul>
-                                     <li>Bullet text will go here</li>
-                                     <li>Bullet text will go here</li>
-                                     <li>Bullet text will go here</li>
-                                 </ul> 
+                                <div class="prd-buy-lt">
+                                    <p class="prd-price">Today: $00.00</p>
+                                    <p>
+                                        <strong>Retail Value:</strong> $000.00 (Show only if item is on sale)
+                                    </p>
+                                    <ul class="prd-blts">
+                                         <li>Bullet text will go here</li>
+                                         <li>Bullet text will go here</li>
+                                         <li>Bullet text will go here</li>
+                                     </ul>
+                                </div>
+
+                                <div class="prd-buy-rt">
+                                     <ul>
+                                         <li>
+                                            <label for="quantity">Qty:</label>
+                                            <select name="" id="quantity">
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <submit class="btn-red">Add To Cart</submit>
+                                        </li>
+                                     </ul>
+                                 </div>
                             </div>
                             
                             <p class="backorder">
@@ -91,13 +96,13 @@
                     <div class="prd-social-share">
                         <ul>
                             <li>
-                                <a href=""><i class="icon-facebook icon-3x"></i></a>
+                                <a href=""><i class="icon-facebook icon-2x"></i></a>
                             </li>
                             <li>
-                                <a href=""<i class="icon-twitter icon-3x"></i></a>
+                                <a href=""<i class="icon-twitter icon-2x"></i></a>
                             </li>
                             <li>
-                                <a href=""><i class="icon-google-plus icon-3x"></i></a>
+                                <a href=""><i class="icon-google-plus icon-2x"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -184,9 +189,9 @@
                     </div>
                     <div class="cust-rev-rt">
                         <ul>
-                            <li>Tell us what you thinksadsdadsa</li>
+                            <li>Tell us what you think</li>
                             <li>
-                                <button>Submit A Review</button>
+                                <button class="btn-red">Submit A Review</button>
                             </li>
                         </ul>
                     </div>

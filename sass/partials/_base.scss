@@ -1,10 +1,11 @@
 $brown: #cc6633;
 $maroon: #990000;
-$red: #ff0000;
+$red: #cc0021;
 $grey: #ebebeb;
 $lightgrey: #f5f5f5;
 $darkgrey: #a1a1a1;
 $yellow: #ecdd8a;
+$cream: #f8f3dd;
 $blue: #39c;
 $font: 'Roboto', Myriad Pro, sans-serif;
 $font2: Helvetica, Arial, sans-serif;
@@ -16,7 +17,6 @@ $fontweight: 800;
 	outline: none;
   	text-align: center;
   	text-decoration: none;
-  	@include border-radius(4px);
 }
 
 @mixin button1 ($color1, $color2, $color3) {
@@ -52,7 +52,11 @@ $fontweight: 800;
 
 .btn-red {
 	font: 18px/1em $font2;
-	@include button2(#fff, #f00, #c00)
+	@include button2(#fff, #f00, #c00);
+}
+
+button {
+	border: 0;
 }
 
 body {

@@ -4,8 +4,8 @@
 	display: none;
 	max-width: none;
 	padding: 0;
-	background-color: #f8f3dd;
-	@include background-image(linear-gradient(#f8f3dd, #f0e5b6));
+	background-color: $cream;
+	@include background-image(linear-gradient($cream, #f0e5b6));
 	li {
 		a {
 			border-bottom: 1px solid #fff;

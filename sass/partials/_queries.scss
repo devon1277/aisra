@@ -1,0 +1,224 @@
+/* Landscape phone to portrait tablet */
+@media screen and (min-width: 320px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media screen and (min-width: 480px) {
+	header {
+		border-bottom: 2px solid #fff;
+		padding: 10px 0;
+		.container {
+			margin: 0 2.5%;
+			overflow: hidden;
+		}
+		.logo {
+			img {
+				padding: 0;
+			}
+		}
+	}
+
+	.top-nav-bar {
+		ul {
+			li {
+				display: block !important;
+				float: left;
+				padding: 0 10px;
+				border-left: 1px solid #ccc;
+				&:first-child {
+					border-left: none;
+				}
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	.skipLinks {
+		display: none;
+	}
+
+	.special {
+		font-size: 3em;
+	}
+
+}
+ 
+/* iPad landscape and up - 768px and up */
+@media screen and (min-width: 748px) {
+	.logo {
+		float: left;
+		padding: 0 42px 0 0;
+		img {
+			display: block;
+			width: 180px;
+			height: auto;
+		}
+	}
+
+	// Search bar 
+	.slide-trigger {
+		display: none;
+	}
+
+	.skip-drops {
+		border-top: none;
+		padding: 0;
+	}
+
+	.searchWrap {
+		display: block;
+		float: left;
+		width: 62%;
+	}
+
+	.searchBar {
+		input[type="text"] {
+			height: 16px;
+			width: 75%;
+		}
+		input[type="submit"] {
+			display: block;
+			float: left;
+		}
+	}
+
+	.search-icon {
+		top: 7px;
+	}
+
+	// Minicart
+	.mc-links {
+		font-size: 14px;
+		background-color: $yellow;
+		display: block;
+		float: right;
+		a {
+			color: #000;
+			display: block;
+			padding: 10px 10px;
+		}
+	}
+
+	// Navigation
+	.navigation {
+		border-bottom: 4px solid #000;
+		display: block;
+		overflow: hidden;
+		padding: 0 2.5%;
+		li {
+			float: left;
+			a {
+				border-bottom: none;
+				border-left: 1px solid #e7dcac;
+				border-right: 1px solid #fff;
+				padding: 10px 30px;
+				&:hover {
+					background-color: #000;
+					color: #fff;
+					text-shadow: none;
+				}
+			}
+		}
+		.nav-first {
+			border-left: none;
+		}
+		.nav-last {
+			border-right: none;
+		}
+	}
+
+	.masthead {
+		height: 400px;
+	}
+
+	.ftr-links {
+		float: left;
+		dl {
+			min-height: 130px;
+			border-left: 1px solid #a24a16;
+			border-right: 1px solid #be622c;
+			padding: 0 40px;
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+
+	.ftr-email {
+		float: left;
+	}
+
+	.product-big {
+		width: 30%;
+		display: inline-block;
+		margin-right: 20px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	.products-nobox {
+		li {
+			width: 24%;
+			display: inline-block;
+		}
+	}
+
+	.products-box {
+		li {
+			border: 1px solid $grey;
+			float: left;
+			width: 20%;
+			background-color: #fff;
+			@include background-image(linear-gradient(white 80%, $lightgrey));
+		}
+	}
+
+}
+
+/* 960px and up */
+@media screen and (min-width: 940px) {
+	.product-big {
+		width: 31.25%;
+	}
+
+	.products-box {
+		li {
+			margin-left: 16px;
+			width: 15%;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+	.searchWrap {
+		width: 68%;
+	}
+
+	.searchBar {
+		input[type="text"] {
+			width: 75%;
+		}
+	}
+
+	.ftr-logo {
+		display: block;
+		float: left;
+		padding: 0 40px 0 0;
+		border-right: 1px solid #be622c;
+	}
+
+	.ftr-links {
+		dl {
+			width: 120px;
+		}
+	}
+
+}

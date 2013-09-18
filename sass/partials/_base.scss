@@ -45,6 +45,17 @@ $fontweight: 800;
 	}
 }
 
+@mixin button3 ($color1, $color2) {
+	@include button;
+	color: $color1;
+	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+	background-color: $color2;
+	&:hover {
+		color: #fff;
+		background-color: $brown;
+	}
+}
+
 .btn-maroon {
 	font: 18px/1em $font;
 	@include button1($maroon, #fff, #f00);
@@ -53,6 +64,10 @@ $fontweight: 800;
 .btn-red {
 	font: 18px/1em $font2;
 	@include button2(#fff, #f00, #c00);
+}
+
+.btn-red-flat {
+	@include button3(#fff, #c00);
 }
 
 button {
@@ -102,6 +117,7 @@ input[type="text"], input[type="password"] {
 
 input[type="submit"] {
 	cursor: pointer;
+	border: 0;
 	@include text-shadow(rgba(#000, 0.5) 1px 1px 0);
 }
 

@@ -24,7 +24,7 @@
 .prd-details {
 	float: left;
 	padding-left: 40px;
-	width: 50%;
+	width: 60%;
 	h2 {
 		font-size: 2em;
 		color: $maroon;
@@ -32,7 +32,6 @@
 }
 
 .prd-promotion {
-	display: none;
 	background-color: $lightgrey;
 	font-size: 20px;
 	font-family: $font2;
@@ -46,9 +45,10 @@
 	overflow: hidden;
 	.rating {
 		float: left;
+		margin: 0 10px 0 0;
 	}
 	p {
-		float: right;
+		float: left;
 		color: $blue;
 	}
 	a {
@@ -74,10 +74,41 @@
 }
 
 .prd-buy-rt {
-	background-color: $cream;
+	background-color: $lightgrey;
+	border: 2px solid $grey;
 	float: right;
 	padding: 10px 10px 20px;
 	width: 40%;
+	li {
+		margin: 0 0 6px;
+		&:first-child {
+			border-bottom: 1px dotted $darkgrey;
+			margin-bottom: 10px;
+		}
+		&:last-child {
+			background-color: #fff;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+	}
+	span {
+		color: $maroon;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	label {
+		font-weight: bold;
+		display: inline-block;
+		text-transform: uppercase;
+		width: 50px;
+	}
+	> p {
+		font-size: 11px;
+		line-height: 1;
+	}
+	.btn-red-flat {
+		font-size: 1.5em;
+	}
 }
 
 .prd-price {
@@ -89,10 +120,6 @@
 
 .prd-blts {
 	margin: 20px 0 0;
-}
-
-.backorder {
-
 }
 
 .prd-share {
@@ -160,6 +187,9 @@
 		margin: 0 30px 0 0;
 		padding: 0 30px 0 0;
 	}
+	h3 {
+		font: $fontweight 1.75em/1em $font;
+	}
 	p {
 		font: $fontweight 1.75em/1em $font;
 		color: $maroon;
@@ -185,7 +215,46 @@
 }
 
 .customer-reviews {
+	> div {
+		border-bottom: 1px dotted $grey;
+		overflow: hidden;
+		margin: 0 0 20px 0;
+		padding: 0 10px 20px;
+	}
+	dl {
+		float: left;
+		width: 10%;
+	}
+	dd {
+		&:last-child {
+			font-style: italic;
+			font-weight: bold;
+		}
+	}
+	ul {
+		float: left;
+		width: 85%;
+	}
+}
 
+.helpful {
+	text-transform: uppercase;
+	border: 1px solid $grey;
+	padding: 6px;
+	margin: 10px 0 0;
+	width: 15%;
+	@include background-image(linear-gradient(white 60%, $lightgrey));
+	span {
+		font-weight: bold;
+	}
+	.icon-thumbs-up {
+		color: green;
+		margin: 0 10px 0 4px;
+	}
+	.icon-thumbs-down {
+		color: $red;
+		margin: 0 0 0 4px;
+	}
 }
 
 .customer-review-ftr {

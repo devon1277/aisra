@@ -37,7 +37,6 @@
                         </dl>
                     </div>
                     <section class="prd-details">
-                        <p class="prd-promotion">FREE Shipping On Todays Order</p>
 
                         <h2>Silver Dangling Earings</h2>
                         <p>Made In: Country Name</p>
@@ -59,15 +58,16 @@
                                         <strong>Retail Value:</strong> $000.00 (Show only if item is on sale)
                                     </p>
                                     <ul class="prd-blts">
-                                         <li>Bullet text will go here</li>
-                                         <li>Bullet text will go here</li>
-                                         <li>Bullet text will go here</li>
+                                         <li>Lorem ipsum dolor sit amet consetetur</li>
+                                         <li>Lorem ipsum dolor sit amet consetetur</li>
+                                         <li>Lorem ipsum dolor sit amet consetetur</li>
                                      </ul>
                                 </div>
 
                                 <div class="prd-buy-rt">
                                      <ul>
-                                         <li>
+                                        <li><span>Options</span></li>
+                                        <li>
                                             <label for="quantity">Qty:</label>
                                             <select name="" id="quantity">
                                                 <option value="">0</option>
@@ -77,16 +77,34 @@
                                             </select>
                                         </li>
                                         <li>
-                                            <submit class="btn-red">Add To Cart</submit>
+                                            <label for="quantity">Color:</label>
+                                            <select name="" id="quantity">
+                                                <option value="">White</option>
+                                                <option value="">Black</option>
+                                                <option value="">Red</option>
+                                                <option value="">Blue</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <label for="quantity">Size:</label>
+                                            <select name="" id="quantity">
+                                                <option value="">S</option>
+                                                <option value="">M</option>
+                                                <option value="">L</option>
+                                                <option value="">XL</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <input type="submit" value="Add To Cart" class="btn-red-flat" />
                                         </li>
                                      </ul>
+                                     <p>
+                                        This item is currently on Backorder. We will email you when its available. (Only show this when item is out of stock and hide cart button)
+                                    </p>
                                  </div>
                             </div>
-                            
-                            <p class="backorder">
-                                This item is currently on Backorder. We will email you when its available.
-                            </p>
                         </div>
+                        <p class="prd-promotion">FREE Shipping On Todays Order</p>
                         <ul class="prd-share">
                             <li>
                                 <i class="icon-envelope"></i> Share this by emailing your friends
@@ -200,7 +218,11 @@
                 <section class="customer-reviews">
                     <div>
                         <dl>
-                            <dt>Stars here</dt>
+                            <dt>
+                                <div class="rating">
+                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                </div>
+                            </dt>
                             <dd>01/00/13</dd>
                             <dd>John G</dd>
                         </dl>
@@ -208,12 +230,16 @@
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </li>
-                            <li><span>Helpful:</span> <i class="icon-thumbs-up"></i><i class="icon-thumbs-down"></i></li>
+                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<a href=""><i class="icon-thumbs-up"></i></a> 0<a href=""><i class="icon-thumbs-down"></i></a></li>
                         </ul>
                     </div>
                       <div>
                         <dl>
-                            <dt>Stars here</dt>
+                            <dt>
+                                <div class="rating">
+                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                </div>
+                            </dt>
                             <dd>01/00/13</dd>
                             <dd>John G</dd>
                         </dl>
@@ -221,12 +247,16 @@
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </li>
-                            <li><span>Helpful:</span> <i class="icon-thumbs-up"></i><i class="icon-thumbs-down"></i></li>
+                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<i class="icon-thumbs-up"></i> 0<i class="icon-thumbs-down"></i></li>
                         </ul>
                     </div>
                       <div>
                         <dl>
-                            <dt>Stars here</dt>
+                            <dt>
+                                <div class="rating">
+                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                </div>
+                            </dt>
                             <dd>01/00/13</dd>
                             <dd>John G</dd>
                         </dl>
@@ -234,7 +264,7 @@
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </li>
-                            <li><span>Helpful:</span> <i class="icon-thumbs-up"></i><i class="icon-thumbs-down"></i></li>
+                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<i class="icon-thumbs-up"></i> 0<i class="icon-thumbs-down"></i></li>
                         </ul>
                     </div>
                 </section>

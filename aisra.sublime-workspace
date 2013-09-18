@@ -4,698 +4,158 @@
 		"selected_items":
 		[
 			[
-				"bac",
-				"background-attachment"
-			],
-			[
-				"back",
-				"background-attachment"
-			],
-			[
-				"hei",
-				"height:   (property)"
-			],
-			[
-				"h",
-				"header"
-			],
-			[
-				"dis",
-				"display"
-			],
-			[
-				"search",
-				"searchWrap"
-			],
-			[
-				"displ",
-				"display"
-			],
-			[
-				"blo",
-				"block"
-			],
-			[
-				"disp",
-				"display"
-			],
-			[
-				"non",
-				"none"
-			],
-			[
-				"bb",
-				"bb	border-bottom"
-			],
-			[
-				"ski",
-				"skip-links-sprite"
-			],
-			[
-				"ri",
-				"rig	right"
-			],
-			[
-				"no",
-				"no-repeat"
-			],
-			[
-				"mar",
+				"margin",
 				"margin"
 			],
 			[
-				"top",
-				"top:   (property)"
-			],
-			[
-				"lef",
-				"left"
-			],
-			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"rel",
-				"relative"
-			],
-			[
-				"flo",
-				"float"
-			],
-			[
-				"mini",
-				"miniCart"
-			],
-			[
-				"searc",
-				"searchWrap"
-			],
-			[
-				"sk",
-				"skipAccount"
-			],
-			[
-				"bl",
-				"block"
-			],
-			[
-				"pad",
+				"padding",
 				"padding"
+			],
+			[
+				"m",
+				"moz-animation"
 			],
 			[
 				"padd",
 				"padding"
 			],
 			[
-				"left",
-				"left"
-			],
-			[
-				"typ",
-				"type"
-			],
-			[
-				"ho",
-				"hover"
-			],
-			[
-				"cont",
-				"content"
-			],
-			[
-				"border-r",
-				"border-right"
-			],
-			[
 				"border",
-				"border-bottom"
-			],
-			[
-				"hi",
-				"hidden"
-			],
-			[
-				"ty",
-				"type"
-			],
-			[
-				"box",
-				"box-shadow"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"type",
-				"type=\"text/css"
+				"border-right"
 			],
 			[
 				"bor",
 				"border"
 			],
 			[
-				"he",
-				"height"
-			],
-			[
-				"i",
-				"i	Tag"
-			],
-			[
-				"pa",
-				"padding-right"
-			],
-			[
-				"min",
-				"min-height"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"bo",
-				"both"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"tex",
-				"text-transform"
-			],
-			[
-				"pro",
-				"products"
-			],
-			[
-				"prod",
-				"prodtitle"
-			],
-			[
-				"center",
-				"center"
-			],
-			[
-				"bro",
-				"brown"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"fot",
-				"font-family"
-			],
-			[
-				"brw",
-				"brown"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"lin",
-				"line-height"
-			],
-			[
-				"rig",
-				"right"
-			],
-			[
-				"text",
 				"text-align"
 			],
 			[
-				"cen",
-				"center"
+				"pad",
+				"padding"
 			],
 			[
-				"col",
-				"color"
-			],
-			[
-				"ari",
-				"sans-serif  (value)"
-			],
-			[
-				"gr",
-				"grid-2"
-			],
-			[
-				"sup",
-				"support-bx-title"
-			],
-			[
-				"su",
-				"sup	Tag"
-			],
-			[
-				"op",
-				"option	Tag"
-			],
-			[
-				"l",
-				"li	Tag"
-			],
-			[
-				"d",
-				"div	Tag"
-			],
-			[
-				"in",
-				"input	Tag"
-			],
-			[
-				"fo",
-				"form	Tag"
-			],
-			[
-				"for",
-				"FORM	Tag"
-			],
-			[
-				"n",
-				"nav	Tag"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
-				"ine",
-				"inline-block"
-			],
-			[
-				"btm-box",
-				"btm-box-1"
-			],
-			[
-				"img",
-				"img"
-			],
-			[
-				"li",
-				"li	Tag"
-			],
-			[
-				"fff",
-				"fff"
-			],
-			[
-				"paddi",
+				"pl",
 				"padding-left"
 			],
 			[
-				"font-",
-				"font-size:   (property)"
+				"tt",
+				"text-transform"
 			],
 			[
-				"line-he",
-				"line-height:   (property)"
-			],
-			[
-				"a",
-				"a	Tag"
-			],
-			[
-				"stron",
-				"strong	Tag"
-			],
-			[
-				"min-",
-				"min-height"
-			],
-			[
-				"sa",
-				"sans-serif"
-			],
-			[
-				"bord",
-				"border-right"
-			],
-			[
-				"out",
-				"outerbox"
-			],
-			[
-				"table",
-				"table-price"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"con",
-				"container"
-			],
-			[
-				"offer",
-				"offer-hero"
-			],
-			[
-				"firs",
-				":first-child"
-			],
-			[
-				"lte",
-				"letter-spacing"
-			],
-			[
-				"tet",
-				"text-decoration"
+				"text",
+				"text-transform"
 			],
 			[
 				"marg",
 				"margin"
 			],
 			[
-				"z-in",
-				"z-index"
+				"boder",
+				"border-left"
 			],
 			[
-				"backgro",
-				"background-position"
+				"br",
+				"bdr+	border-right+"
 			],
 			[
-				"strea",
-				"streampix-white"
-			],
-			[
-				"red",
-				"red-bar-tv"
-			],
-			[
-				"price",
-				"priceboxsmall"
-			],
-			[
-				"first-type",
-				":first-of-type"
-			],
-			[
-				"span",
-				"span4"
-			],
-			[
-				"backr",
-				"background"
-			],
-			[
-				"ac",
-				"active"
-			],
-			[
-				"footer",
-				"footer-buttons"
-			],
-			[
-				"list",
-				"list-style-position"
-			],
-			[
-				"tar",
-				"transparent"
-			],
-			[
-				"men",
-				"menutitle"
-			],
-			[
-				"wd",
+				"wid",
 				"width"
 			],
 			[
-				"backgt",
-				"background-color	zen:css_properties"
+				"bc",
+				"background-color"
 			],
 			[
-				"hel",
-				"Arial, Helvetica, sans-serif"
+				"bl",
+				"bdl	border-left"
 			],
 			[
-				"vis",
-				"visibility"
+				"mar",
+				"maroon"
 			],
 			[
-				"sr",
-				"session_register"
+				"co",
+				"color"
 			],
 			[
-				"eo",
-				"PCLZIP_ERR_INVALID_OPTION_VALUE"
+				"font",
+				"font-size"
 			],
 			[
-				"ar",
-				"Arial, Helvetica, sans-serif"
-			],
-			[
-				"spa",
-				"span"
-			],
-			[
-				"heig",
-				"height"
-			],
-			[
-				"heu",
-				"height	zen:css_properties"
-			],
-			[
-				"sc",
-				"scroll"
-			],
-			[
-				"margin-",
-				"margin-top"
-			],
-			[
-				"c",
-				"color: #${1: 000000};"
-			],
-			[
-				"aria",
-				"Arial, Helvetica, sans-serif"
-			],
-			[
-				"s",
-				"span"
-			],
-			[
-				"re",
-				"relative"
-			],
-			[
-				"arial",
-				"\"Arial Black\""
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"z",
-				"z-index"
-			],
-			[
-				"tras",
-				"transparent"
-			],
-			[
-				"tae",
-				"transparent"
-			],
-			[
-				"las",
-				"last-child"
+				"back",
+				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
 	],
-	"build_system": "Packages/User/Safari.sublime-build",
+	"build_system": "",
 	"command_palette":
 	{
-		"height": 291.0,
+		"height": 392.0,
 		"selected_items":
 		[
-			[
-				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
-			],
 			[
 				"pack",
 				"Package Control: Install Package"
 			],
 			[
-				"lpacka",
+				"pac",
 				"Package Control: Remove Package"
 			],
 			[
-				"Pac",
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
-				"Pack",
-				"Package Control: List Packages"
-			],
-			[
-				"br",
-				"BracketHighlighter: Fold Bracket Content"
-			],
-			[
-				"brack",
-				"BracketHighlighter: Select Bracket Content"
-			],
-			[
-				"bra",
-				"BracketHighlighter: Select Tag Name (closing and opening)"
-			],
-			[
-				"",
-				"BracketHighlighter: Fold Bracket Content"
-			],
-			[
-				"remo",
-				"BracketHighlighter: Remove Brackets"
-			],
-			[
-				"brac",
-				"BracketHighlighter: Remove Brackets"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"pacl",
-				"Package Control: Install Package"
-			],
-			[
-				"Discove",
-				"Package Control: Discover Packages"
-			],
-			[
-				"Packa",
-				"Package Control: Remove Package"
-			],
-			[
-				"em",
-				"Emmet: Remove Tag"
+				"fetc",
+				"Fetch: Package"
 			],
 			[
 				"html",
-				"Snippet: html5 template"
+				"Set Syntax: HTML"
 			],
 			[
-				"Snippet: html",
-				"Snippet: DOCTYPE HTML"
+				"Fetc",
+				"Fetch: Manage"
 			],
 			[
-				"toggle min",
-				"View: Toggle Minimap"
+				"Fet",
+				"Fetch: Package"
 			],
 			[
-				"sidebar",
-				"View: Toggle Open Files in Side Bar"
+				"fetch",
+				"Fetch: File"
 			],
 			[
-				"sideba",
-				"Snippet: Sidebar Template"
-			],
-			[
-				"syntax h",
-				"Set Syntax: HTML5"
-			],
-			[
-				"Snippet: img",
-				"Snippet: input - image"
-			],
-			[
-				"preferences",
-				"Preferences: Browse Packages"
-			],
-			[
-				"Snippet: <p",
-				"Snippet: <p>"
-			],
-			[
-				"Install",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"Vi",
-				"View In Browser"
+				"instal",
+				"Package Control: Install Package"
 			],
 			[
-				"View",
-				"View In Browser"
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
-				"Snippet: ",
-				"Snippet: list"
+				"package",
+				"Package Control: Install Package"
 			],
 			[
-				"Snippet: table",
-				"Snippet: Bootstrap tabbable navigation tabs on the left"
-			],
-			[
-				"Snippet: ie",
-				"Snippet: IE Conditional Comment: IE"
-			],
-			[
-				"Snippet: html5",
-				"Snippet: HTML 5 Layout"
-			],
-			[
-				"Snippet: page",
-				"Snippet: page"
-			],
-			[
-				"Snippet: lay",
-				"Snippet: HTML 5 Layout"
-			],
-			[
-				"Snippet: quer",
-				"Snippet: mediaquery:"
-			],
-			[
-				"Snippet: jqu",
-				"Snippet: <script> (code.jquery.com)"
-			],
-			[
-				"Snippet: boostr",
-				"Snippet: Bootstrap info button"
-			],
-			[
-				"Snippet: bootst",
-				"Snippet: Bootstrap fluid layout"
-			],
-			[
-				"fet",
-				"Fetch"
-			],
-			[
-				"Snippet: rese	",
-				"Snippet: reset css file"
+				"Packe",
+				"Preferences: Browse Packages"
 			]
 		],
-		"width": 466.0
+		"width": 508.0
 	},
 	"console":
 	{
-		"height": 141.0
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -708,147 +168,29 @@
 	},
 	"file_history":
 	[
-		"/Users/admin/Sites/aisra.com/js/main.js",
-		"/Users/admin/Sites/aisra.com/sass/screen.scss",
-		"/Users/admin/Downloads/contact-form-7/includes/classes.php",
-		"/Users/admin/Downloads/contact-form-7/includes/controller.php",
-		"/Users/admin/Sites/aisra.com/index.html",
-		"/Users/admin/Sites/bgt/index.html",
-		"/Users/admin/Sites/aisra.com/css/screen.css",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/CSScomb/CSScomb.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/admin/Sites/aisra.com/category-page.html",
-		"/Users/admin/Sites/aisra.com/cart.htm",
-		"/Users/admin/Sites/aisra.com/config.rb",
-		"/Users/admin/Sites/aisra.com/apple-touch-icon-72x72-precomposed.png",
-		"/Users/admin/Sites/aisra.com/subcategory-page.html",
-		"/Users/admin/Sites/aisra.com/address.htm",
-		"/Users/admin/Sites/aisra.com/payment.htm",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/bh_core.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/Autoprefixer/Autoprefixer.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/Example.sublime-keymap",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/admin/Downloads/TechzillaPortal (1)/css/portal.css",
-		"/Users/admin/Downloads/TechzillaPortal/css/portal.css",
-		"/Users/admin/Sites/aisra.com/css/bootstrap.css",
-		"/Users/admin/Sites/aisra.com/css/bootstrap.min.css",
-		"/Users/admin/Sites/hairsolution/index.php",
-		"/Users/admin/Desktop/portal.css",
-		"/Users/admin/Downloads/TechzillaPortal-1/css/portal.css",
-		"/Users/admin/Documents/Web & Email/Saveology Deals/emails/dining-travel-intro/index.htm",
-		"/Users/admin/Desktop/Safari.sublime-build",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/safari-preview.sublime-build",
-		"/Users/admin/Documents/Web & Email/Saveology Deals/affiliates/email-1/index-2.htm",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/View In Browser.sublime-settings",
-		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/Users/mvelis/Sites/cableone/index.html",
-		"/Users/mvelis/Sites/cableone/sftp-config.json",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/User/DetectSyntax.sublime-settings",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/User/AdvancedNewFile.sublime-settings",
-		"/Users/mvelis/Sites/cableone/css/user.css",
-		"/Users/mvelis/Sites/charter texas/default.htm",
-		"/Users/mvelis/Sites/centurylink/default.htm",
-		"/Users/mvelis/Downloads/aprilFools.css",
-		"/Users/mvelis/Sites/charter texas/privacy.htm",
-		"/Users/mvelis/Sites/charter texas/dnc-policy.htm",
-		"/Users/mvelis/Sites/charter texas/css/user.css",
-		"/Users/mvelis/Sites/charter texas/css/layout.css",
-		"/Users/mvelis/Sites/ipad/Version2/css/comcast-ipad.css",
-		"/Users/mvelis/Sites/dishnet/css/layout.css",
-		"/Users/mvelis/Sites/dishnet/default.htm",
-		"/Users/mvelis/Sites/dishnet/css/reset.css",
-		"/Users/mvelis/Sites/protect-america/css/layout.css",
-		"/Users/mvelis/Sites/protect-america/css/reveal.css",
-		"/Users/mvelis/Sites/protect-america/css/user.css",
-		"/Users/mvelis/Sites/protect-america/css/visibleIf.css",
-		"/Users/mvelis/Sites/ipad/Version2/offline.html",
-		"/Users/mvelis/Sites/ipad/Version2/comcast.appcache.htm",
-		"/Users/mvelis/Sites/ipad/Version2/.htaccess",
-		"/Users/mvelis/Sites/ipad/Version2/index.html",
-		"/Users/mvelis/Desktop/untitled.htm",
-		"/Users/mvelis/Sites/qnetwork/header.php",
-		"/Users/mvelis/Sites/ipad/Version2/voice.html",
-		"/Users/mvelis/Sites/ipad/Version2/internet.html",
-		"/Users/mvelis/Sites/ipad/Version2/default.html",
-		"/Users/mvelis/Sites/ipad/Version2/tv.html",
-		"/Users/mvelis/Sites/ipad/Version2/index2.html",
-		"/Users/mvelis/Sites/ipad/Version2/css/jquery.mobile-1.2.0.css",
-		"/Users/mvelis/Sites/ipad/Version2/css/jquery.mobile.custom.css",
-		"/Users/mvelis/Sites/ipad/Version2/css/jquery.mobile.custom.theme.css",
-		"/Users/mvelis/Sites/ipad/Version2/css/ipad-comcast.css",
-		"/Users/mvelis/Sites/ipad/Version2/js/jquery.mobile.custom.js",
-		"/Users/mvelis/Sites/ipad/Version2/js/jquery-1.8.3.js",
-		"/Users/mvelis/Sites/ipad/Version2/css/ipad-red.css",
-		"/Users/mvelis/Sites/ipad/Version2/css/jquery.mobile.custom.structure.css",
-		"/Users/mvelis/Sites/DISHLATINO/css/default.htm",
-		"/Users/mvelis/Sites/DISHLATINO/css/layout.css",
-		"/Users/mvelis/Sites/DISHLATINO/css/user.css",
-		"/Users/mvelis/Desktop/themeforest-2964855-scrn-responsive-single-page-portfolio/SCRN/header.php",
-		"/Users/mvelis/Sites/Qology Soon Page/index.php",
-		"/Users/mvelis/Desktop/soon/css/main.css",
-		"/Users/mvelis/Desktop/soon/index.html",
-		"/Users/mvelis/Desktop/soon/css/media-queries.css",
-		"/Users/mvelis/Desktop/soon/css/devices.css",
-		"/Users/mvelis/Desktop/soon/css/settings.css",
-		"/Users/mvelis/Desktop/soon/css/style.css",
-		"/Users/mvelis/Desktop/soon/js/jq.countdown.js",
-		"/Users/mvelis/Desktop/soon/js/custom.js",
-		"/Users/mvelis/Desktop/soon/css/visual.css",
-		"/Users/mvelis/Desktop/soon/soon.html",
-		"/Users/mvelis/Desktop/soon/css/css",
-		"/Users/mvelis/Sites/ipad/OnlineComcastTablet/default.htm",
-		"/Users/mvelis/Sites/DISHLATINO/default.htm",
-		"/Users/mvelis/Sites/ADT/css/tipsy.css",
-		"/Users/mvelis/Sites/ADT/js/hover.js",
-		"/Users/mvelis/Sites/ADT/js/html5Widgets.js",
-		"/Users/mvelis/Sites/ADT/js/html5shiv.js",
-		"/Users/mvelis/Sites/ADT/js/html5Forms.js",
-		"/Users/mvelis/Sites/ADT/js/html5.js",
-		"/Users/mvelis/Sites/ADT/js/form.js",
-		"/Users/mvelis/Sites/ADT/js/cssQuery-p.js",
-		"/Users/mvelis/Sites/ADT/js/css3-mediaqueries.js",
-		"/Users/mvelis/Sites/ADT/filter/PIE.htc",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/HTML/page.sublime-snippet",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/CSS/text-shadow.sublime-snippet",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/CSS/box-round.sublime-snippet",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/CSS/border-radius.sublime-snippet",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/HTML5/layout",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/HTML/phone",
-		"/Users/mvelis/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
-		"/untitled.htm",
-		"/Users/mvelis/Downloads/by_parallax/css/main.css",
-		"/Users/mvelis/Sites/DISHLATINO/css/reveal.css",
-		"/Users/mvelis/Sites/DISHLATINO/css/responsive.css",
-		"/Users/mvelis/Sites/DISHLATINO/demo.html",
-		"/Users/mvelis/Sites/DISHLATINO/js/jquery.pseudo.js",
-		"/Users/mvelis/Sites/DISHLATINO/index.html",
-		"/Users/mvelis/Downloads/prettyPhoto_compressed_3.1.4/index.html",
-		"/Users/mvelis/Downloads/fancyapps-fancyBox-902ef92/demo/index.html",
-		"/Users/mvelis/Sites/DISHLATINO/fonts/fonts.css",
-		"/Users/mvelis/Sites/DISHLATINO/js/font-grad.js",
-		"/Users/mvelis/Sites/DISHLATINO/css/reset.css",
-		"/Users/mvelis/Sites/DISHLATINO/css/reset.htm"
+		"/Users/Devon/Sites/aisra.com/product.php",
+		"/Users/Devon/.gemrc",
+		"/Users/Devon/Sites/aisra.com/temp.php",
+		"/Users/Devon/Sites/aisra.com/index.php",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_queries.scss",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_base.scss",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_nav.scss",
+		"/Users/Devon/Sites/aisra.com/includes/breadcrumbs.php",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_structure.scss",
+		"/Users/Devon/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Devon/Sites/aisra.com/includes/footer.php",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/Devon/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
-			"<open files>",
-			"/Users/mvelis/Desktop/1800cabletv-template-mail,/Users/mvelis/Desktop/1800cabletv-template-mail",
-			""
 		]
 	},
 	"find_state":
@@ -856,134 +198,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"mail()",
-			"mail",
-			"wpcf7_before_send_mail",
-			".logo",
-			"@media",
-			".container",
-			"\"active",
-			".active",
-			"skipLi",
-			".logo",
-			"searchW",
-			"header",
-			"searchWrap",
-			".logo",
-			"skipLInks",
-			"skipLink",
-			"skipLinks",
-			"media",
-			"searc",
-			"grey",
-			"top-nav",
-			"skip",
-			".logo",
-			"masthead",
-			"media",
-			"sd",
-			"searc",
-			"nav",
-			"skipLi",
-			"Link",
-			"mini-btn",
-			"miniCart",
-			"mini-",
-			".logo",
-			"mini-cart",
-			"nav",
-			"ftr-logo",
-			".logo",
-			"nav",
-			"url",
-			"image-url",
-			"width",
-			"nav",
-			"text-shad",
-			"nav",
-			"red",
-			"search",
-			".logo",
-			"search",
-			"10px",
-			"-bar",
-			"image-url",
-			"url(",
-			"@inclu",
-			"left",
-			"margin",
-			"ftr",
-			"margin",
-			"</div>",
-			"<div",
-			"overflow: hidden",
-			"color",
-			"text",
-			"\n  ",
-			"Black Onyx Necklace",
-			"center",
-			"Region From:",
-			"By:",
-			">",
-			"<",
-			"normal",
-			"By",
-			"(India)",
-			"product",
-			"sublime",
-			"cart-head",
-			"<button",
-			"</div>",
-			"<div",
-			"debounce_delay",
-			"radio",
-			"<se",
-			"sublime",
-			"btm-box > div",
-			"768px",
-			"home",
-			"@media",
-			"btm-box",
-			"@media",
-			"#media",
-			"login",
-			"\n.",
-			"url",
-			"box",
-			"li",
-			"moderinzer",
-			"footer",
-			"box-left",
-			"table",
-			">\n",
-			"sign-up",
-			"images/",
-			"\n</",
-			"table",
-			"body",
-			"sublime",
-			"*a",
-			".brt-",
-			".brt-white ",
-			"960",
-			"display: block",
-			"<img ",
-			"color",
-			" \n",
-			"price-box",
-			"hover",
-			"menu",
-			"../images/",
-			"callnow",
-			"content .banner .callnow",
-			";\n",
-			"pricebox .mos",
-			".internet-offers aside div.span2",
-			"tv-hero .features-list",
-			"tv-offers aside div.span2",
-			"productlist",
-			"before",
-			"callnowvoice"
+			"review",
+			"submit",
+			"dotted",
+			"solid",
+			"products-box",
+			"top",
+			"Product Information",
+			"clear",
+			"top",
+			"solid",
+			"products-box",
+			"gradient",
+			"gradi",
+			"products-box",
+			"darkgrey",
+			"complete",
+			"quantity",
+			"Qty",
+			"navigation",
+			"FollowSymLinks",
+			"AllowOver",
+			"devon"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,53 +227,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"<a href=\"\">Black Onyx Necklace</a>",
-			"<strong>Region From:</strong>",
-			"<strong>By:</strong>",
-			"Region From: India",
-			"https://s3.amazonaws.com/email-promotions/affil-emails/dining",
-			"display: block; border: 0px;",
-			"http://oursitehost.com/themeforest/powerhouse/images/",
-			"voice",
-			"tv-hero",
-			"",
-			"../images",
-			"",
-			"mailto:",
-			"",
-			"<img style=\"display: block\" src=",
-			"<img style=\"display: block; vertical-align: bottom\"",
-			"<img style=\"display: block\" ",
-			"<img style=\"display: block\"",
-			"<img style=\"display: block\" ",
-			"<img src=\"images",
-			"",
-			"/",
-			"<img src=\"assets/",
-			"href=\"",
-			"",
-			"product-box",
-			"countdown",
-			"disc1",
-			"even1",
-			"odd1",
-			"-",
-			"<br>",
-			"&reg;",
-			"&copy;",
-			"&reg;",
-			"%reg;",
-			"&amp;",
-			"'",
-			"-",
-			"\"",
-			"<strong>",
-			". ",
-			"<br>  ",
-			"\"",
-			".",
-			"http://themes.saveology.com/Xfinityonline/",
-			"url(http://themes.saveology.com/Xfinityonline//images"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1047,6 +236,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -1070,11 +264,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1084,17 +285,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 29.0
-	},
-	"output.sftp":
-	{
-		"height": 114.0
-	},
 	"replace":
 	{
-		"height": 64.0
+		"height": 0.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1102,29 +295,21 @@
 		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"sass",
-				"sass/screen.scss"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"/Users/admin/Sites/aisra.com/aisra.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 178.0,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }

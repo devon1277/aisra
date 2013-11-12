@@ -48,17 +48,17 @@
 
         <div class="ftr-email">
             <div>
-                <p>Join our Email list for Sales Events &amp; News</p>
+                <p>Join our Email list for Sales Events &amp; News <i class="icon-envelope icon-large"></i></p>
                 <form>
                     <fieldset>
                         <label for="name">Name:</label>
-                        <input type="text" id="name" placeholder="Enter Name">
+                        <input type="text" id="name" placeholder="Enter Name" />
                     </fieldset>
                     <fieldset>
                         <label for="email">Email:</label>
-                        <input type="text" id="email" placeholder="example@example.com">
+                        <input type="text" id="email" placeholder="example@example.com" />
                     </fieldset>
-                    <button type="button">Submit</button>
+                    <input type="submit" value="Submit" class="btn-red-flat" />
                 </form>
             </div>
         </div>

@@ -53,6 +53,7 @@
                         <div>
                             <div class="prd-buy-wrap">
                                 <div class="prd-buy-lt">
+                                    <p class="prd-promotion">FREE Shipping On Todays Order</p>
                                     <p class="prd-price">Today: $00.00</p>
                                     <p>
                                         <strong>Retail Value:</strong> $000.00 (Show only if item is on sale)
@@ -104,10 +105,10 @@
                                  </div>
                             </div>
                         </div>
-                        <p class="prd-promotion">FREE Shipping On Todays Order</p>
+                        
                         <ul class="prd-share">
                             <li>
-                                <i class="icon-envelope"></i> Share this by emailing your friends
+                                <a href=""><i class="icon-envelope"></i> Share this by emailing your friends</a>
                             </li>
                         </ul>
                     </section>
@@ -203,7 +204,7 @@
                             <li><h3>Customer Reviews Summary</h3></li>
                             <li><strong>Total Reviews: 3</strong></li>
                         </ul>
-                        <p>100% of AISRA cutomers recommend this!</p>
+                        <p>100% of AISRA cutomers <br />recommend this!</p>
                     </div>
                     <div class="cust-rev-rt">
                         <ul>
@@ -247,7 +248,7 @@
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </li>
-                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<i class="icon-thumbs-up"></i> 0<i class="icon-thumbs-down"></i></li>
+                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<a href=""><i class="icon-thumbs-up"></i></a> 0<a href=""><i class="icon-thumbs-down"></i></a></li>
                         </ul>
                     </div>
                       <div>
@@ -264,15 +265,15 @@
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </li>
-                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<i class="icon-thumbs-up"></i> 0<i class="icon-thumbs-down"></i></li>
+                            <li class="helpful"><span>Helpful:</span>  &nbsp;&nbsp;0<a href=""><i class="icon-thumbs-up"></i></a> 0<a href=""><i class="icon-thumbs-down"></i></a></li>
                         </ul>
                     </div>
                 </section>
 
                 <div class="customer-review-ftr">
                     <ul>
-                        <li>sdsdsdsdsTell us what you think</li>
-                        <li><button>Submit A Review</button></li>
+                        <li>Tell us what you think</li>
+                        <li><button class="btn-red">Submit A Review</button></li>
                     </ul>
                 </div>
 

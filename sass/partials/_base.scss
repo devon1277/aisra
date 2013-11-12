@@ -12,11 +12,11 @@ $font2: Helvetica, Arial, sans-serif;
 $fontweight: 800;
 
 @mixin button {
-  	cursor: pointer;
+  cursor: pointer;
 	padding: 8px 20px;
 	outline: none;
-  	text-align: center;
-  	text-decoration: none;
+  text-align: center;
+  text-decoration: none;
 }
 
 @mixin button1 ($color1, $color2, $color3) {

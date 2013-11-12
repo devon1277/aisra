@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
 				"margin",
-				"margin"
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
 			],
 			[
 				"padding",
@@ -24,10 +36,6 @@
 				"border-right"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"tex",
 				"text-align"
 			],
@@ -41,10 +49,6 @@
 			],
 			[
 				"tt",
-				"text-transform"
-			],
-			[
-				"text",
 				"text-transform"
 			],
 			[
@@ -168,17 +172,23 @@
 	},
 	"file_history":
 	[
+		"/Users/Devon/Sites/aisra.com/sass/partials/_productdetail.scss",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_structure.scss",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_queries.scss",
+		"/Users/Devon/Sites/aisra.com/sass/partials/_base.scss",
 		"/Users/Devon/Sites/aisra.com/product.php",
+		"/Users/Devon/Sites/aisra.com/includes/footer.php",
+		"/Users/Devon/Sites/railsproject/demo_app/Gemfile",
+		"/Users/Devon/Sites/railsproject/first_app/Gemfile",
+		"/Users/Devon/Sites/railsproject/first_app/README.md",
+		"/Users/Devon/Sites/railsproject/first_app/.gitignore",
+		"/Users/Devon/Sites/aisra.com/includes/footer.inc",
 		"/Users/Devon/.gemrc",
 		"/Users/Devon/Sites/aisra.com/temp.php",
 		"/Users/Devon/Sites/aisra.com/index.php",
-		"/Users/Devon/Sites/aisra.com/sass/partials/_queries.scss",
-		"/Users/Devon/Sites/aisra.com/sass/partials/_base.scss",
 		"/Users/Devon/Sites/aisra.com/sass/partials/_nav.scss",
 		"/Users/Devon/Sites/aisra.com/includes/breadcrumbs.php",
-		"/Users/Devon/Sites/aisra.com/sass/partials/_structure.scss",
 		"/Users/Devon/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/Users/Devon/Sites/aisra.com/includes/footer.php",
 		"/Applications/MAMP/conf/apache/httpd.conf",
 		"/Users/Devon/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings"
 	],
@@ -198,6 +208,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ruby",
+			"Made In",
+			"-rt",
 			"review",
 			"submit",
 			"dotted",

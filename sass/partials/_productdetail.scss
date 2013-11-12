@@ -3,8 +3,10 @@
 }
 
 .prd-detail-img {
+	border: 1px solid $grey;
 	float: left;
 	overflow: hidden;
+	padding: 10px;
 	dt {
 		margin-bottom: 10px;
 		img {
@@ -28,13 +30,16 @@
 	h2 {
 		font-size: 2em;
 		color: $maroon;
+		+ p {
+			color: $darkgrey;
+		}
 	}
 }
 
 .prd-promotion {
-	background-color: $lightgrey;
-	font-size: 20px;
-	font-family: $font2;
+	font: $fontweight 1.5em/1em $font;
+	color: #fff;
+	background-color: $brown;
 	text-transform: uppercase;
 	padding: 10px 10px;
 	margin-bottom: 20px;
@@ -114,7 +119,7 @@
 .prd-price {
 	margin: 0 0 10px;
 	color: $red;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	font-weight: bold;
 }
 
@@ -123,7 +128,16 @@
 }
 
 .prd-share {
-
+	font-size: 1.25em;
+	i {
+		margin: 0 6px 0 0;
+	}
+	a {
+		color: $blue;
+		&:hover {
+			color: $red;
+		}
+	}
 }
 
 .prd-social-share {
@@ -182,7 +196,7 @@
 	padding-left: 10px;
 	width: 70%;
 	ul {
-		border-right: 1px solid $yellow;
+		border-right: 1px solid #fff;
 		float: left;
 		margin: 0 30px 0 0;
 		padding: 0 30px 0 0;
@@ -202,10 +216,14 @@
 	padding-right: 10px;
 	text-align: right;
 	width: 25%;
+	ul {
+		padding-top: 6px;
+	}
 	li {
 		display: inline;
 		padding-left: 10px;
 		&:first-child {
+			font-weight: bold;
 			text-transform: uppercase;
 		}
 	}
@@ -220,6 +238,9 @@
 		overflow: hidden;
 		margin: 0 0 20px 0;
 		padding: 0 10px 20px;
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 	dl {
 		float: left;
@@ -258,5 +279,17 @@
 }
 
 .customer-review-ftr {
-
+	text-align: right;
+	padding: 10px;
+	li {
+		display: inline;
+		padding-left: 10px;
+		&:first-child {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+	.btn-red {
+		font-size: 1em;
+	}
 }

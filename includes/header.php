@@ -32,7 +32,8 @@
         </div>
         <div class="mc-links">
             <ul>
-                <li><a href=""><i class="icon-shopping-cart"></i> 00 Item(s) <i class="icon-chevron-sign-down"></i></a></li>
+                <li><a href="" class="view-cart"><i class="icon-shopping-cart"></i> 00 Item(s) | View Cart</a></li>
+                <li><a href="" class="checkout-now">Checkout Now</a></li>
             </ul>
         </div>
         <div class="miniCart skip-drops" id="skipCart">

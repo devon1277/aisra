@@ -5,6 +5,8 @@
             
             <?php include("includes/nav.php"); ?>
             
+             <?php include("includes/deals.php"); ?>
+
             <div class="masthead">
                 <div class="container">
                     <div class="masthead-caption">

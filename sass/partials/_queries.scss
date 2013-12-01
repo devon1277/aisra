@@ -71,7 +71,8 @@
 	.searchWrap {
 		display: block;
 		float: left;
-		width: 62%;
+		width: 58%;
+		padding-top: 10px;
 	}
 
 	.searchBar {
@@ -92,13 +93,38 @@
 	// Minicart
 	.mc-links {
 		font-size: 14px;
-		background-color: $yellow;
+		
 		display: block;
 		float: right;
+		padding-top: 10px;
 		a {
 			color: #000;
 			display: block;
 			padding: 10px 10px;
+		}
+		li {
+			float: left;
+		}
+	}
+
+	.view-cart {
+		background-color: $yellow;
+		&:hover {
+
+		}
+	}
+
+	.checkout-now {
+		color: #fff !important;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 10px 20px !important;
+		background: #f26821;
+		@include background-image(linear-gradient(#f26821, #f7921e));
+		&:hover {
+			background: #000;
+			@include background-image(linear-gradient(#252525, #000000));
 		}
 	}
 
@@ -178,6 +204,45 @@
 		}
 	}
 
+	.deals {
+		display: block;
+		padding: 10px 2.5%;
+		overflow: hidden;
+		dl {
+			border-right: 1px solid $lightgrey;
+			float: left;
+			overflow: hidden;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 15%;
+			&:last-child {
+				border-right: none;
+				padding-right: 0;
+			}
+		}
+		dt {
+			float: left;
+		}
+		dd {
+			color: $darkgrey;
+			font-size: 10px;
+			line-height: 1;
+			span {
+				color: #f00;
+				font-size: 14px;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.deals-first {
+		padding-left: 0 !important;
+	}
+
+	.deals-offer {
+		padding: 10px 0 5px;
+	}
+
 }
 
 /* 960px and up */
@@ -199,9 +264,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.searchWrap {
-		width: 68%;
-	}
 
 	.searchBar {
 		input[type="text"] {

@@ -58,7 +58,7 @@
 		}
 	}
 
-	// Search bar 
+	/* Search bar */
 	.slide-trigger {
 		display: none;
 	}
@@ -206,19 +206,19 @@
 
 	.deals {
 		display: block;
+		border-bottom: 1px solid #ebebeb;
 		padding: 10px 2.5%;
 		overflow: hidden;
-		dl {
-			border-right: 1px solid $lightgrey;
+		a {
+			border-right: 1px dotted #ebebeb;
 			float: left;
+			width: 16%;
+			margin-right: 5px;
+		}
+		dl {
 			overflow: hidden;
 			padding-left: 10px;
 			padding-right: 10px;
-			width: 15%;
-			&:last-child {
-				border-right: none;
-				padding-right: 0;
-			}
 		}
 		dt {
 			float: left;
@@ -239,8 +239,37 @@
 		padding-left: 0 !important;
 	}
 
+	a.deals-last {
+		border-right: 0;
+	}
+
 	.deals-offer {
 		padding: 10px 0 5px;
+	}
+
+	/* Subcategory Page */
+	.sub-left {
+		float: left;
+		width: 15%;
+	}
+
+	.sub-right {
+		float: right;
+		width: 85%;
+		> div {
+			padding: 10px 20px;
+		}
+	}
+
+	.sub-cat-prds {
+		overflow: hidden;
+		ul {
+			float: left;
+			margin-right: 60px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
 	}
 
 }

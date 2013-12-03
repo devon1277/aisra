@@ -8,10 +8,10 @@
             </ul>
             <dl>
                 <dt>Stay Connected:</dt>
-                <dd><i class="icon-facebook"></i></dd>
-                <dd><i class="icon-twitter"></i></dd>
-                <dd><i class="icon-google-plus-sign"></i></dd>
-                <dd><i class="icon-pinterest"></i></dd>
+                <dd><a href=""><i class="icon-facebook"></i></a></dd>
+                <dd><a href=""><i class="icon-twitter"></i></a></dd>
+                <dd><a href=""><i class="icon-google-plus-sign"></i></a></dd>
+                <dd><a href=""><i class="icon-pinterest"></i></a></dd>
             </dl>
         </div>
     </div>

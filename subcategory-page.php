@@ -9,7 +9,8 @@
         <title>Aisra.com</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="css/screen.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -23,16 +24,21 @@
             
             <?php include("includes/nav.php"); ?>
 
+            <?php include("includes/deals.php"); ?>
+
             <div class="container">
+
+                <div class="breadcrumbs">
+                    <ul>
+                        <li><a href=""><span>Home</span></a></li>
+                        <li><a href="">Category Name</a></li>
+                        <li><a href="">Sub Category Name</a></li>
+                    </ul>
+                </div>
                 
                 <div class="category-heading">
-                    <h1>Category Name</h1>
+                    <h1>Sub Category Name</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-
-                <div class="category-header">
-                    <h2>Title text here</h2>
-                    <p>Subtitle copy will go here</p>
                 </div>
 
                 <section class="sub-category">
@@ -69,76 +75,71 @@
                         </div>
                    </aside>
                    <div class="sub-right">
-                        <div class="sub-cat-menu">
-                            <ul class="pagination">
-                                <li>Showing 1-12 of 285</li>
-                                <li>Page:</li>
-                                <li><a href="">1</a></li>
-                                <li><a href="">2</a></li>
-                                <li><a href="">3</a></li>
-                                <li><a href="">View All</a></li>
-                            </ul>
-                            <ul class="sort">
-                                <li>Sort by:</li>
-                                <li>
-                                    <select name="sort">
-                                        <option value="highest-price">Highest Price</option>
-                                        <option value="lowest-price">Lowest Price</option>
-                                        <option value="newest">Newest</option>
-                                        <option value="most-popular">Most Popular</option>
-                                        <option value="country">Country</option>
-                                    </select>
-                                </li>
-                            </ul>
+                        <div>
+                            <div class="sub-cat-menu">
+                                <ul class="pagination">
+                                    <li>Showing 1-12 of 285</li>
+                                    <li>Page:</li>
+                                    <li><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">View All</a></li>
+                                </ul>
+                                <ul class="sort">
+                                    <li>Sort by:</li>
+                                    <li>
+                                        <select name="sort">
+                                            <option value="highest-price">Highest Price</option>
+                                            <option value="lowest-price">Lowest Price</option>
+                                            <option value="newest">Newest</option>
+                                            <option value="most-popular">Most Popular</option>
+                                            <option value="country">Country</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub-cat-prds">
+                                <ul>
+                                    <li><a href=""><img src="img/160x160-thumb.jpg" alt=""></a></li>
+                                    <li><a href="">Name</a href=""></li>
+                                    <li>Made by: Aisra</li>
+                                    <li>Made in: India</li>
+                                    <li>Price: $00.00</li>
+                                </ul>
+                                <ul>
+                                    <li><a href=""><img src="img/160x160-thumb.jpg" alt=""></a></li>
+                                    <li><a href="">Name</a href=""></li>
+                                    <li>Made by: Aisra</li>
+                                    <li>Made in: India</li>
+                                    <li>Price: $00.00</li>
+                                </ul>
+                                <ul>
+                                    <li><a href=""><img src="img/160x160-thumb.jpg" alt=""></a></li>
+                                    <li><a href="">Name</a href=""></li>
+                                    <li>Made by: Aisra</li>
+                                    <li>Made in: India</li>
+                                    <li>Price: $00.00</li>
+                                </ul>
+                                <ul>
+                                    <li><a href=""><img src="img/160x160-thumb.jpg" alt=""></a></li>
+                                    <li><a href="">Name</a href=""></li>
+                                    <li>Made by: Aisra</li>
+                                    <li>Made in: India</li>
+                                    <li>Price: $00.00</li>
+                                </ul>
+                                <ul>
+                                    <li><a href=""><img src="img/160x160-thumb.jpg" alt=""></a></li>
+                                    <li><a href="">Name</a href=""></li>
+                                    <li>Made by: Aisra</li>
+                                    <li>Made in: India</li>
+                                    <li>Price: $00.00</li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul class="products-box">
-                            <li>
-                                <div class="thumbwrapper">
-                                    <a href=""></a>
-                                </div>
-                                <a href="" class="prodtitle">Ceramic Vase</a>
-                                <p class="prodprice">$00.00</p>
-                            </li>
-                            <li>
-                                <div class="thumbwrapper">
-                                    <a href=""></a>
-                                </div>
-                                <a href="" class="prodtitle">Ceramic Vase</a>
-                                <p class="prodprice">$00.00</p>
-                            </li>
-                            <li>
-                                <div class="thumbwrapper">
-                                    <a href=""></a>
-                                </div>
-                                <a href="" class="prodtitle">Ceramic Vase</a>
-                                <p class="prodprice">$00.00</p>
-                            </li>
-                            <li>
-                                <div class="thumbwrapper">
-                                    <a href=""></a>
-                                </div>
-                                <a href="" class="prodtitle">Ceramic Vase</a>
-                                <p class="prodprice">$00.00</p>
-                            </li>
-                            <li>
-                                <div class="thumbwrapper">
-                                    <a href=""></a>
-                                </div>
-                                <a href="" class="prodtitle">Ceramic Vase</a>
-                                <p class="prodprice">$00.00</p>
-                            </li>
-                            <li>
-                                <div class="thumbwrapper">
-                                    <a href=""></a>
-                                </div>
-                                <a href="" class="prodtitle">Cyprus Vase</a>
-                                <p class="prodprice">$00.00</p>
-                            </li>
-                        </ul>
                    </div>
                 </section>
 
-                <div class="content">
+                <div class="cat-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
 
@@ -147,52 +148,48 @@
                     <ul class="products-box">
                         <li>
                             <div class="thumbwrapper">
-                                <a href=""></a>
+                                <a href=""><img src="img/ring.jpg" /></a>
                             </div>
                             <a href="" class="prodtitle">Ceramic Vase</a>
                             <p class="prodprice">$00.00</p>
                         </li>
                         <li>
                             <div class="thumbwrapper">
-                                <a href=""></a>
+                                <a href=""><img src="img/ring.jpg" /></a>
                             </div>
                             <a href="" class="prodtitle">Ceramic Vase</a>
                             <p class="prodprice">$00.00</p>
                         </li>
                         <li>
                             <div class="thumbwrapper">
-                                <a href=""></a>
+                                <a href=""><img src="img/ring.jpg" /></a>
                             </div>
                             <a href="" class="prodtitle">Ceramic Vase</a>
                             <p class="prodprice">$00.00</p>
                         </li>
                         <li>
                             <div class="thumbwrapper">
-                                <a href=""></a>
+                                <a href=""><img src="img/ring.jpg" /></a>
                             </div>
                             <a href="" class="prodtitle">Ceramic Vase</a>
                             <p class="prodprice">$00.00</p>
                         </li>
                         <li>
                             <div class="thumbwrapper">
-                                <a href=""></a>
+                                <a href=""><img src="img/ring.jpg" /></a>
                             </div>
                             <a href="" class="prodtitle">Ceramic Vase</a>
                             <p class="prodprice">$00.00</p>
                         </li>
                         <li>
                             <div class="thumbwrapper">
-                                <a href=""></a>
+                                <a href=""><img src="img/ring.jpg" /></a>
                             </div>
                             <a href="" class="prodtitle">Cyprus Vase</a>
                             <p class="prodprice">$00.00</p>
                         </li>
                     </ul>
                 </section>
-
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
 
             </div>
 

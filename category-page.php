@@ -44,59 +44,63 @@
                     </div>
                 </div>
 
+                <div class="cat-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
                 <section class="cat-subcat">
                     <div class="product-big">
-                        <div class="float-lft"><a href=""><img src="http://dummyimage.com/170x140/cccccc/fff.jpg&text" /></a></div>
-                        <p>Necklaces</p>
+                        <div class="float-lft"><a href=""><img src="img/160x160-thumb.jpg" /></a></div>
+                        <p><a href="">Necklaces</a></p>
                         <dl>
                             <dt>Description text will go in this area</dt>
-                            <dd>sub/sub category here</dd>
-                            <dd>sub/sub category here</dd>
+                            <dd><a href="">sub/sub category here</a></dd>
+                            <dd><a href="">sub/sub category here</a></dd>
                         </dl>
                     </div>
                     <div class="product-big">
-                        <div class="float-lft"><a href=""><img src="http://dummyimage.com/170x140/cccccc/fff.jpg&text" /></a></div>
-                        <p>Necklaces</p>
+                        <div class="float-lft"><a href=""><img src="img/160x160-thumb.jpg" /></a></div>
+                        <p><a href="">Necklaces</a></p>
                         <dl>
                             <dt>Description text will go in this area</dt>
-                            <dd>sub/sub category here</dd>
-                            <dd>sub/sub category here</dd>
+                            <dd><a href="">sub/sub category here</a></dd>
+                            <dd><a href="">sub/sub category here</a></dd>
                         </dl>
                     </div>
                     <div class="product-big">
-                        <div class="float-lft"><a href=""><img src="http://dummyimage.com/170x140/cccccc/fff.jpg&text" /></a></div>
-                        <p>Necklaces</p>
+                        <div class="float-lft"><a href=""><img src="img/160x160-thumb.jpg" /></a></div>
+                        <p><a href="">Necklaces</a></p>
                         <dl>
                             <dt>Description text will go in this area</dt>
-                            <dd>sub/sub category here</dd>
-                            <dd>sub/sub category here</dd>
+                            <dd><a href="">sub/sub category here</a></dd>
+                            <dd><a href="">sub/sub category here</a></dd>
                         </dl>
                     </div>
                     <div class="product-big">
-                        <div class="float-lft"><a href=""><img src="http://dummyimage.com/170x140/cccccc/fff.jpg&text" /></a></div>
-                        <p>Necklaces</p>
+                        <div class="float-lft"><a href=""><img src="img/160x160-thumb.jpg" /></a></div>
+                        <p><a href="">Necklaces</a></p>
                         <dl>
                             <dt>Description text will go in this area</dt>
-                            <dd>sub/sub category here</dd>
-                            <dd>sub/sub category here</dd>
+                            <dd><a href="">sub/sub category here</a></dd>
+                            <dd><a href="">sub/sub category here</a></dd>
                         </dl>
                     </div>
                     <div class="product-big">
-                        <div class="float-lft"><a href=""><img src="http://dummyimage.com/170x140/cccccc/fff.jpg&text" /></a></div>
-                        <p>Necklaces</p>
+                        <div class="float-lft"><a href=""><img src="img/160x160-thumb.jpg" /></a></div>
+                        <p><a href="">Necklaces</a></p>
                         <dl>
                             <dt>Description text will go in this area</dt>
-                            <dd>sub/sub category here</dd>
-                            <dd>sub/sub category here</dd>
+                            <dd><a href="">sub/sub category here</a></dd>
+                            <dd><a href="">sub/sub category here</a></dd>
                         </dl>
                     </div>
                     <div class="product-big">
-                        <div class="float-lft"><a href=""><img src="http://dummyimage.com/170x140/cccccc/fff.jpg&text" /></a></div>
-                        <p>Necklaces</p>
+                        <div class="float-lft"><a href=""><img src="img/160x160-thumb.jpg" /></a></div>
+                        <p><a href="">Necklaces</a></p>
                         <dl>
                             <dt>Description text will go in this area</dt>
-                            <dd>sub/sub category here</dd>
-                            <dd>sub/sub category here</dd>
+                            <dd><a href="">sub/sub category here</a></dd>
+                            <dd><a href="">sub/sub category here</a></dd>
                         </dl>
                     </div>
                 </section>

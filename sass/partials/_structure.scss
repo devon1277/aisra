@@ -279,9 +279,11 @@
 // Category page styles
 .category-heading {
 	border-bottom: 1px solid $lightgrey;
-	text-transform: uppercase;
 	margin-bottom: 20px;
 	padding: 10px 0 10px 0;
+	h1 {
+		text-transform: uppercase;
+	}
 }
 
 .category-header {
@@ -304,6 +306,18 @@
 .cat-subcat {
 	.product-big {
 		margin-bottom: 40px;
+		img {
+			border: 1px solid $lightgrey;
+		}
+		a {
+			color: $maroon;
+			&:hover {
+				color: #000;
+			}
+		}
+		dt {
+			margin-bottom: 10px;
+		}
 	}
 }
 
@@ -311,12 +325,51 @@
 	margin: 0 0 40px;
 }
 
+/* Sub Category Page */
+.sub-category {
+	overflow: hidden;
+	margin: 0 0 30px;
+}
+
+.sub-left {
+	.sub-menu {
+		border: 1px solid $grey;
+		padding: 10px;
+	}
+}
+
+.sub-menu {
+	dl {
+		margin-bottom: 20px;
+	}
+	dt {
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: underline;
+		margin-bottom: 10px;
+	}
+}
+
+.sub-right {
+
+}
+
+.sub-cat-prds {
+	img {
+		border: 1px solid $lightgrey;
+	}
+	a {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+}
+
 /* Deals Section */
 .deals {
 	display: none;
 }
 
-// Footer styles
+/* Footer styles */
 .need-help-bar {
 	background-color: #000;
 	overflow: hidden;
@@ -400,7 +453,7 @@ footer {
 	}
 	.btn-red-flat {
 		font-size: 1em;
-		margin: 6px 0 0 20px;
+		margin: 6px 0 0 42px;
 	}
 }
 

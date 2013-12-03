@@ -5,6 +5,7 @@
             <li><a href="">Sign In</a></li>
             <li><a href="">Help</a></li>
             <li><strong>Shipping to:</strong></li>
+            <li style="padding-top: 2px; border-left: none; padding-lefT: 0;"><img src="img/us-flag.png" /></li>
         </ul>                         
     </div>
 </div>

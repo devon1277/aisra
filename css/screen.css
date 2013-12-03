@@ -593,9 +593,11 @@ header .container {
 
 .category-heading {
   border-bottom: 1px solid whitesmoke;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding: 10px 0 10px 0;
+}
+.category-heading h1 {
+  text-transform: uppercase;
 }
 
 .category-header {
@@ -618,9 +620,50 @@ header .container {
 .cat-subcat .product-big {
   margin-bottom: 40px;
 }
+.cat-subcat .product-big img {
+  border: 1px solid whitesmoke;
+}
+.cat-subcat .product-big a {
+  color: #990000;
+}
+.cat-subcat .product-big a:hover {
+  color: #000;
+}
+.cat-subcat .product-big dt {
+  margin-bottom: 10px;
+}
 
 .cat-content {
   margin: 0 0 40px;
+}
+
+/* Sub Category Page */
+.sub-category {
+  overflow: hidden;
+  margin: 0 0 30px;
+}
+
+.sub-left .sub-menu {
+  border: 1px solid #ebebeb;
+  padding: 10px;
+}
+
+.sub-menu dl {
+  margin-bottom: 20px;
+}
+.sub-menu dt {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.sub-cat-prds img {
+  border: 1px solid whitesmoke;
+}
+.sub-cat-prds a {
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 /* Deals Section */
@@ -628,6 +671,7 @@ header .container {
   display: none;
 }
 
+/* Footer styles */
 .need-help-bar {
   background-color: #000;
   overflow: hidden;
@@ -717,7 +761,7 @@ footer a:hover {
 }
 .ftr-email .btn-red-flat {
   font-size: 1em;
-  margin: 6px 0 0 20px;
+  margin: 6px 0 0 42px;
 }
 
 .ftr-disclaimer {
@@ -1071,6 +1115,7 @@ footer a:hover {
     height: auto;
   }
 
+  /* Search bar */
   .slide-trigger {
     display: none;
   }
@@ -1218,20 +1263,20 @@ footer a:hover {
 
   .deals {
     display: block;
+    border-bottom: 1px solid #ebebeb;
     padding: 10px 2.5%;
     overflow: hidden;
   }
-  .deals dl {
-    border-right: 1px solid whitesmoke;
+  .deals a {
+    border-right: 1px dotted #ebebeb;
     float: left;
+    width: 16%;
+    margin-right: 5px;
+  }
+  .deals dl {
     overflow: hidden;
     padding-left: 10px;
     padding-right: 10px;
-    width: 15%;
-  }
-  .deals dl:last-child {
-    border-right: none;
-    padding-right: 0;
   }
   .deals dt {
     float: left;
@@ -1251,8 +1296,37 @@ footer a:hover {
     padding-left: 0 !important;
   }
 
+  a.deals-last {
+    border-right: 0;
+  }
+
   .deals-offer {
     padding: 10px 0 5px;
+  }
+
+  /* Subcategory Page */
+  .sub-left {
+    float: left;
+    width: 15%;
+  }
+
+  .sub-right {
+    float: right;
+    width: 85%;
+  }
+  .sub-right > div {
+    padding: 10px 20px;
+  }
+
+  .sub-cat-prds {
+    overflow: hidden;
+  }
+  .sub-cat-prds ul {
+    float: left;
+    margin-right: 60px;
+  }
+  .sub-cat-prds ul:last-child {
+    margin-right: 0;
   }
 }
 /* 960px and up */

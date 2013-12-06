@@ -102,6 +102,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: linear-gradient(#252525 60%, #000000);
 }
 
+.btn-green {
+  font: 18px/1em Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  padding: 8px 20px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: #39b54a;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #39b54a), color-stop(100%, #00a651));
+  background-image: -webkit-linear-gradient(#39b54a 60%, #00a651);
+  background-image: -moz-linear-gradient(#39b54a 60%, #00a651);
+  background-image: -o-linear-gradient(#39b54a 60%, #00a651);
+  background-image: linear-gradient(#39b54a 60%, #00a651);
+}
+.btn-green:hover {
+  color: #fff;
+  background-color: #000;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #252525), color-stop(100%, #000000));
+  background-image: -webkit-linear-gradient(#252525 60%, #000000);
+  background-image: -moz-linear-gradient(#252525 60%, #000000);
+  background-image: -o-linear-gradient(#252525 60%, #000000);
+  background-image: linear-gradient(#252525 60%, #000000);
+}
+
 .btn-red-flat {
   cursor: pointer;
   padding: 8px 20px;
@@ -591,6 +617,7 @@ header .container {
   width: 50%;
 }
 
+/* Category page styles */
 .category-heading {
   border-bottom: 1px solid whitesmoke;
   margin-bottom: 20px;
@@ -1065,6 +1092,31 @@ footer a:hover {
 }
 .customer-review-ftr .btn-red {
   font-size: 1em;
+}
+
+.checkout-pgs {
+  overflow: hidden;
+}
+
+.co-left {
+  float: left;
+  width: 75%;
+}
+.co-left h1 {
+  font-size: 1.25em;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.co-left > div {
+  border: 1px solid #ebebeb;
+  padding: 6px;
+}
+
+.co-right {
+  float: right;
+  width: 20%;
 }
 
 /* Landscape phone to portrait tablet */

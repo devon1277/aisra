@@ -1,0 +1,24 @@
+.checkout-pgs {
+  overflow: hidden;
+}
+
+.co-left {
+  float: left;
+  width: 75%;
+  h1 {
+    font-size: 1.25em;
+    font-family: $font2;
+    background-color: $lightgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  > div {
+    border: 1px solid $grey;
+    padding: 6px;
+  }
+}
+
+.co-right {
+  float: right;
+  width: 20%;
+}

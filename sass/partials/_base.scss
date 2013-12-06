@@ -66,6 +66,11 @@ $fontweight: 800;
 	@include button2(#fff, #f00, #c00);
 }
 
+.btn-green {
+	font: 18px/1em $font2;
+	@include button2(#fff, #39b54a, #00a651);
+}
+
 .btn-red-flat {
 	@include button3(#fff, #c00);
 }

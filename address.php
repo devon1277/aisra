@@ -9,7 +9,8 @@
         <title>Aisra.com</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="css/screen.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -18,144 +19,112 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <div class="wrapper">
-            <div class="container">
+            
+            <?php include("includes/header.php"); ?>
+            
+            <?php include("includes/nav.php"); ?>
 
-                <div class="cart-lt">
-                    <div class="cart-title">
-                        <p>Enter Billing Address</p>
-                    </div>
+            <div class="container checkout-pgs">   
+                <?php include("includes/breadcrumbs.php"); ?>
+                <div class="co-left co-billaddress">
+                    <h1>Enter Billing Address</h1>
+                    <p>
+                        Please enter your contact information and billing address below. Your name and billing address must be entered exactly as they appear on your credit card statement to avoid any delays in the authorization process.
+                    </p>
+                    <p class="required">
+                        *Indicates required fields
+                    </p>
+ 
                     <div>
-                        <p>
-                            Please enter your contact information and billing address below. Your name and billing must be entered exactly as they appear on your credit card statement to avoid any delays in the authorization process.
-                        </p>
-                        <form class="customer-info">
-                            <fieldset>
-                                <label for="firstname-id"><span>*</span>First Name</label>
-                                <input name="firstname" type="text" id="firstname-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="lastname-id"><span>*</span>Last Name</label>
-                                <input name="lastname" type="text" id="lastname-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="email-id"><span>*</span>Email</label>
-                                <input name="email" type="text" id="email-id" placeholder="name@email.com" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="password-id"><span>*</span>Password</label>
-                                <input name="password" type="password" id="password-id" />
-                                <p>must be at least 6 characters long</p>
-                            </fieldset>
-                            <fieldset>
-                                <label for="confirmpass-id"><span>*</span>Confirm Password</label>
-                                <input name="confirmpass" type="password" id="confirmpass-id" />
-                            </fieldset>
-
-                            <hr />
-                            
-                            <fieldset>
-                                <label for="country"><span>*</span>Country</label>
-                                <select name="country" id="country-id">
-                                    <option value="select-country">Select Country</option>
+                        <dl>
+                            <dt><span>*</span>Country</dt>
+                            <dd>
+                                <select name="" id="">
+                                    <option value="">USA</option>
                                 </select>
-                            </fieldset>
-                            <fieldset>
-                                <label for="address1-id"><span>*</span>Address 1</label>
-                                <input name="address1" type="text" id="address1-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="address2-id">Address 2</label>
-                                <input name="address2" type="text" id="address2-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="city-id"><span>*</span>City</label>
-                                <input name="city" type="text" id="city-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="state-id"><span>*</span>State / Province</label>
-                                <input name="state" type="text" id="state-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="zip-id"><span>*</span>Zip / Postal Code</label>
-                                <input name="zip" type="text" id="zip-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="phone-id"><span>*</span>Telephone</label>
-                                <input name="phone" type="text" id="phone-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="age-id"><span>*</span>Confirm Your Age</label>
-                                <input name="age" type="checkbox" id="age-id" />
-                                <p>Yes, I am at least 18 years of age. <a href="">Why required?</a></p>
-                            </fieldset>
-                            <ul>
-                                <li><span>*</span>Ship all the items in my order to:</li>
-                                <li><input name="billing-address" type="radio" value="" />The Above Billing Address (International Shipping not available)</li>
-                                <li><input name="new-address" type="radio" value="" />Another Address (I will provide in next step)</li>
-                                <li><input name="newsletter" type="checkbox" value="" />Yes, send me newsletters and notify me of sales and promotions</li>
-                            </ul>
-                            <div class="form-action">
-                                <input name="checkout" type="button" value="Checkout" />
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-
-                <aside class="cart-support">
-                    <div class="support-bx">
-                        <p class="support-bx-title">Returning Customer</p>
+                            </dd>
+                            <dt><span>*</span>Address 1:</dt>
+                            <dd><input type="text" /></dd>
+                            <dt>Address 2:</dt>
+                            <dd><input type="text" /></dd>
+                            <dt><span>*</span>City:</dt>
+                            <dd><input type="text" /></dd>
+                            <dt><span>*</span>State/Province:</dt>
+                            <dd>
+                                <select name="" id="">
+                                    <option value="">Please Select</option>
+                                </select>
+                            </dd>
+                            <dt><span>*</span>Zip/Postal Code:</dt>
+                            <dd><input type="text" /></dd>
+                            <dt><span>*</span>Confirm Your Age:</dt>
+                            <dd><input type="checkbox" id=""> Yes, I am at least 18 years of age. <a href="">Why Required</a></dd>
+                            <dt>
+                                <span>*</span>Ship all the items in my order to:
+                                <ul>
+                                    <li><input type="radio" name="aboveaddress" value="" /> The Above Billing Address (international shipping not available)</li>
+                                    <li><input type="radio" name="anotheraddress" value="" /> Another Address (that I will provide in the next step)</li>
+                                </ul>
+                            </dt>
+                        </dl>
                         <p>
-                            If you are a returning customer, please enter your e-mail and password below to enjoy a faster checkout.
+                            <input type="checkbox" id="" /> Yes, send me newsletters and notify me of sales and promotions.
                         </p>
-                        <form>
-                            <fieldset>
-                                <label for="custemail">Email</label>
-                                <input name="custemail" type="text" id="custemail-id" />
-                            </fieldset>
-                            <fieldset>
-                                <label for="custpass">Password</label>
-                                <input name="custpass" type="text" id="custpass-id" />
-                            </fieldset>
-                            <input name="signin" type="button" />
-                        </form>
-                        <a href="">Forgot your password?</a>
-                        <div social-signin>
-                            <p>Sign in using one of these Social Networks.</p>
+                    </div>
+                </div>                
+                <aside class="co-right">
+                    <section class="co-returning">
+                        <ul>
+                            <li>Returning Customer</li>
+                        </ul>
+                        <div>
+                            <p>
+                                If you are a returning customer, please enter your e-mail and password below to enjoy a faster checkout.
+                            </p>
                             <ul>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Facebook</a></li>
-                                <li><a href="">Google+</a></li>
+                                <li>Email:</li>
+                                <li><input type="text" /></li>
+                            </ul>
+                            <ul>
+                                <li>Password:</li>
+                                <li><input type="password" /></li>
+                            </ul>
+                            <a href="">Sign In</a>
+                            <a href="">Forgot Your Password?</a>
+                        </div>
+                    </section>
+
+                    <section class="co-cart-sum">
+                        <ul>
+                            <li>Cart Summary</li>
+                        </ul>
+                        <div>
+                            <ul>
+                                <li>1 Dangling Earings</li>
+                                <li><strong>$00.00</strong></li>
+                            </ul>
+                            <ul>
+                                <li>1 Dangling Earings</li>
+                                <li><strong>$00.00</strong></li>
+                            </ul>
+                            <ul class="co-total">
+                                <li>Total 2 Items</li>
+                                <li><strong>$000.00</strong></li>
                             </ul>
                         </div>
-                    </div>
-
-                    <div class="support-bx">
-                        <p class="support-bx-title">Cart Summary</p>
-                        <dl class="cart-mini-summary">
-                            <dt>1 Dangling Earrings</dt>
-                            <dd>$00.00</dd>
-                            <dt>1 Dangling Earrings</dt>
-                            <dd>$00.00</dd>
-                            <dt class="cart-mini-summary">Total Items:</dt>
-                            <dd>$000.00</dd>
-                        </dl>
-                    </div>
+                    </section>
+            
                 </aside>
 
             </div>
+
+            <?php include("includes/footer.php"); ?>
+
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>

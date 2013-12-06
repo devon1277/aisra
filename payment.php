@@ -1,30 +1,47 @@
-<?php include("includes/header.php"); ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Aisra.com</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/screen.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
         <div class="wrapper">
-
+            
             <?php include("includes/header.php"); ?>
             
             <?php include("includes/nav.php"); ?>
 
-            <div class="container">
+            <div class="container checkout-pgs">   
+                <?php include("includes/breadcrumbs.php"); ?>
 
-                <div class="cart-lt">
-                    <div class="form-action">
-                        <ul>
-                            <li>Your Order is not complete until you click</li>
-                            <li><input name="submit-order" type="button" value="Submit My Order" /></li>
-                        </ul>
-                        <p><sup>**</sup>Once you click the submit button your order will be processed.</p>
-                    </div>
+                <div class="form-action">
+                    <ul>
+                        <li>Your Order is not complete until you click</li>
+                        <li><input name="submit-order" type="button" value="Submit My Order" /></li>
+                    </ul>
+                    <p><sup>**</sup>Once you click the submit button your order will be processed.</p>
+                </div>
 
-                    <div class="cart-title">
-                        <p>Enter Billing Address</p>
-                    </div>
+                <div class="co-left">
                     <div>
+                        <h1>Payment Method</h1>
                         <p>Please note that all orders are subject to credit card approval and verification of billing address.</p>
-                        
+
                         <div class="payment-method">
-                            <input name="credit-card" type="radio" value="" />
-                            <p>Pay with a Credit Card:</p>
+                            <p><input name="credit-card" type="radio" value="" /> Pay with a Credit Card:</p>
                         </div>
 
                         <form class="payment-info">
@@ -59,10 +76,9 @@
                         <hr />
 
                         <div class="payment-method">
-                            <input name="paypal" type="radio" value="" />
-                            <p>Pay with PayPal:</p>
+                            <p><input name="paypal" type="radio" value="" /> Pay with PayPal:</p>
                         </div>
-                    </div>
+                    </div> 
 
                     <div class="cart-summary">
                         <ul class="grid-container">
@@ -125,58 +141,50 @@
                             <p><sup>**</sup>Once you click the submit button your order will be processed.</p>
                         </div>
                     </div>
-                </div>
+                </div>                
 
-                <aside class="cart-support">
-                    <div class="support-bx">
-                        <p class="support-bx-title">Cart Summary</p>
-                        <dl class="cart-mini-summary">
-                            <dt>1 Dangling Earrings</dt>
-                            <dd>$00.00</dd>
-                            <dt>1 Dangling Earrings</dt>
-                            <dd>$00.00</dd>
-                            <dt class="cart-mini-summary">Total Items:</dt>
-                            <dd>$000.00</dd>
-                        </dl>
-                    </div>
-
-                    <div class="support-bx">
-                        <p class="support-bx-title">Billing Address <span><a href="">Edit</a></span></p>
+                <aside class="co-right">
+                    <section class="co-returning">
                         <ul>
-                            <li>John Doe</li>
-                            <li>Address 1, Address 2</li>
-                            <li>City, State, Zip, Country</li>
-                            <li>954-000-0000</li>
+                            <li>Returning Customer</li>
                         </ul>
-                    </div>
+                        <div>
+                            <p>
+                                If you are a returning customer, please enter your e-mail and password below to enjoy a faster checkout.
+                            </p>
+                            <ul>
+                                <li>Email:</li>
+                                <li><input type="text" /></li>
+                            </ul>
+                            <ul>
+                                <li>Password:</li>
+                                <li><input type="password" /></li>
+                            </ul>
+                            <a href="">Sign In</a>
+                            <a href="">Forgot Your Password?</a>
+                        </div>
+                    </section>
 
-                    <div class="support-bx">
-                        <p class="support-bx-title">Shipping Address <span><a href="">Edit</a></span></p>
+                    <section class="co-cart-sum">
                         <ul>
-                            <li>John Doe</li>
-                            <li>Address 1, Address 2</li>
-                            <li>City, State, Zip, Country</li>
-                            <li>954-000-0000</li>
+                            <li>Cart Summary</li>
                         </ul>
-                    </div>
-
-                    <div class="support-bx">
-                        <p class="support-bx-title">Shipping Method</p>
-                        <ul class="ship-method">
-                            <li>
-                                <input name="overnight" type="radio" value="" />
-                                <p>Overnight<br />x to xx days<br />$00.00</p>
-                            </li>
-                            <li>
-                                <input name="days" type="radio" value="" />
-                                <p>2 Business Days<br />x to xx days<br />$00.00</p>
-                            </li>
-                            <li>
-                                <input name="standard" type="radio" value="" />
-                                <p>Standard Ground<br />x to xx days<br />$00.00</p>
-                            </li>
-                        </ul>
-                    </div>
+                        <div>
+                            <ul>
+                                <li>1 Dangling Earings</li>
+                                <li><strong>$00.00</strong></li>
+                            </ul>
+                            <ul>
+                                <li>1 Dangling Earings</li>
+                                <li><strong>$00.00</strong></li>
+                            </ul>
+                            <ul class="co-total">
+                                <li>Total 2 Items</li>
+                                <li><strong>$000.00</strong></li>
+                            </ul>
+                        </div>
+                    </section>
+            
                 </aside>
 
             </div>
@@ -189,12 +197,5 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>

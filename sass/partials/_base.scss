@@ -24,12 +24,12 @@ $fontweight: 800;
 	background: $color1;
 	color: $color2;
 	display: inline-block;
-  	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-  	-webkit-transition: all 0.2s linear;
-  	&:hover {
-  		color: $color2;
-  		background-color: $color3;
-  	}
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-transition: all 0.2s linear;
+	&:hover {
+		color: $color2;
+		background-color: $color3;
+	}
 }
 
 @mixin button2 ($color1, $color2, $color3) {
@@ -37,6 +37,11 @@ $fontweight: 800;
 	color: $color1;
 	text-shadow: 0 1px 1px rgba(0,0,0,.8);
 	background-color: $color2;
+	-webkit-transition: background .25s ease-in;
+	-moz-transition: background .25s ease-in;
+	-ms-transition: background .25s ease-in;
+	-o-transition: background .25s ease-in;
+	transition: background .25s ease-in;
 	@include background-image(linear-gradient($color2 60%, $color3));
 	&:hover {
 		color: #fff;
@@ -50,9 +55,14 @@ $fontweight: 800;
 	color: $color1;
 	text-shadow: 0 1px 1px rgba(0,0,0,.8);
 	background-color: $color2;
+	-webkit-transition: background .25s ease-in;
+	-moz-transition: background .25s ease-in;
+	-ms-transition: background .25s ease-in;
+	-o-transition: background .25s ease-in;
+	transition: background .25s ease-in;
 	&:hover {
 		color: #fff;
-		background-color: $brown;
+		background-color: #000;
 	}
 }
 
@@ -68,11 +78,19 @@ $fontweight: 800;
 
 .btn-green {
 	font: 18px/1em $font2;
-	@include button2(#fff, #39b54a, #00a651);
+	@include button3(#fff, #39b54a);
 }
 
 .btn-red-flat {
 	@include button3(#fff, #c00);
+}
+
+.btn-brown {
+	@include button3(#fff, $brown);
+}
+
+.btn-lg {
+	font-size: 1.5em;
 }
 
 button {
@@ -96,6 +114,10 @@ a {
 	}
 }
 
+hr {
+	border: 1px solid $grey;
+}
+
 h1 {
 	font: $fontweight 2em/1.25em $font;
 	+ p {
@@ -110,6 +132,10 @@ h2 {
 		font-size: 1em;
 		margin: 4px 0 0;
 	}
+}
+
+label {
+	cursor: pointer;
 }
 
 input[type="text"], input[type="password"] {
@@ -193,7 +219,9 @@ header {
 
 /*-----breadcrumbs-----*/
 .breadcrumbs {
-	padding: 10px 0 20px;
+	padding: 10px 0 10px;
+	margin: 0 0 10px;
+	border-bottom: 1px solid $lightgrey;
 	li {
 		display: inline;
 		a {

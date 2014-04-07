@@ -28,48 +28,99 @@
                 <?php include("includes/breadcrumbs.php"); ?>
                 <div class="co-left co-billaddress">
                     <h1>Enter Billing Address</h1>
-                    <p>
+                    <div>
+                        <div>
+                            <p>
                         Please enter your contact information and billing address below. Your name and billing address must be entered exactly as they appear on your credit card statement to avoid any delays in the authorization process.
                     </p>
                     <p class="required">
                         *Indicates required fields
                     </p>
- 
-                    <div>
-                        <dl>
-                            <dt><span>*</span>Country</dt>
-                            <dd>
-                                <select name="" id="">
-                                    <option value="">USA</option>
-                                </select>
-                            </dd>
-                            <dt><span>*</span>Address 1:</dt>
-                            <dd><input type="text" /></dd>
-                            <dt>Address 2:</dt>
-                            <dd><input type="text" /></dd>
-                            <dt><span>*</span>City:</dt>
-                            <dd><input type="text" /></dd>
-                            <dt><span>*</span>State/Province:</dt>
-                            <dd>
-                                <select name="" id="">
-                                    <option value="">Please Select</option>
-                                </select>
-                            </dd>
-                            <dt><span>*</span>Zip/Postal Code:</dt>
-                            <dd><input type="text" /></dd>
-                            <dt><span>*</span>Confirm Your Age:</dt>
-                            <dd><input type="checkbox" id=""> Yes, I am at least 18 years of age. <a href="">Why Required</a></dd>
-                            <dt>
-                                <span>*</span>Ship all the items in my order to:
+                        </div>
+                          <div class="co-fields-wrap">
+                            <div class="co-fields co-fields-lt">
+                                <fieldset>
+                                  <label for="firstname"><span>*</span>First Name:</label>
+                                  <input type="text" placeholder="" name="firstname" id="firstname" />
+                                </fieldset>
+                                <fieldset>
+                                  <label for="address1"><span>*</span>Last Name:</label>
+                                  <input type="text" placeholder="" name="lastname" id="lastname" />
+                                </fieldset>
+                                <fieldset>
+                                  <label for="emailaddress"><span>*</span>Email Address:</label>
+                                  <input type="text" name="emailaddress" id="emailaddress" />
+                                </fieldset>
+                                <fieldset>
+                                  <label for="password"><span>*</span>Password:</label>
+                                  <input type="password" name="password" id="password" />
+                                </fieldset>
+                                <fieldset>
+                                  <label for="confirmpass"><span>*</span>Confirm Password:</label>
+                                  <input type="password" name="confirmpass" id="confirmpass" />
+                                </fieldset>
+                          </div>
+                          <div class="co-social co-fields-rt">
+                            <a href="" class="co-fbbtn"><img src="img/fb-connect-btn.jpg" alt="Facebook Connect" /></a>
+                            <p>
+                              Make it easier by connecting your FB account. We will automatically fill in some of these fields for you.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="co-fields">
+                            <hr />
+                            <fieldset>
+                              <label for="country"><span>*</span>Country</label>
+                              <select name="country" id="">
+                                <option value="">USA</option>
+                              </select>
+                            </fieldset>
+                            <fieldset>
+                              <label for="address1"><span>*</span>Address 1:</label>
+                              <input type="text" name="address1" id="address1" />
+                            </fieldset>
+                            <fieldset>
+                              <label for="address2">Address 2:</label>
+                              <input type="text" name="address2" id="address2" />
+                            </fieldset>
+                            <fieldset>
+                              <label for="city"><span>*</span>City:</label>
+                              <input type="text" name="city" id="city" />
+                            </fieldset>
+                            <fieldset>
+                              <label for="country"><span>*</span>State/Province</label>
+                              <select name="country" id="">
+                                <option value="">Please Select</option>
+                              </select>
+                            </fieldset>
+                            <fieldset>
+                              <label for="zipcode"><span>*</span>Zip/Postal Code:</label>
+                              <input type="text" name="zipcode" id="zipcode" />
+                            </fieldset>
+                            <fieldset>
+                              <label for="phone"><span>*</span>Telephone:</label>
+                              <input type="text" name="phone" id="phone" />
+                            </fieldset>
+                            <fieldset>
+                              <label for=""><span>*</span>Confirm your age:</label>
+                              <p><input type="checkbox" /> Yes, I am at least 18 years of age. <a href="">Why Required?</a></p>
+                            </fieldset>
+                            <fieldset class="long">
+                                <label for=""><span>*</span><strong>Ship all the items in my order to:</strong></label>
                                 <ul>
                                     <li><input type="radio" name="aboveaddress" value="" /> The Above Billing Address (international shipping not available)</li>
                                     <li><input type="radio" name="anotheraddress" value="" /> Another Address (that I will provide in the next step)</li>
                                 </ul>
-                            </dt>
-                        </dl>
-                        <p>
-                            <input type="checkbox" id="" /> Yes, send me newsletters and notify me of sales and promotions.
-                        </p>
+                            </fieldset>
+                            <p class="newsletter">
+                              <input type="checkbox" id="" /> Yes, send me newsletters and notify me of sales and promotions.
+                            </p>
+                            <div class="cofields-btn">
+                              <button class="btn-red-flat btn-lg">
+                                Continue Checkout <i class="icon-circle-arrow-right"></i>
+                              </button>
+                            </div>
+                        </div>
                     </div>
                 </div>                
                 <aside class="co-right">
@@ -77,23 +128,25 @@
                         <ul>
                             <li>Returning Customer</li>
                         </ul>
-                        <div>
+                        <div class="co-fields-signin">
                             <p>
                                 If you are a returning customer, please enter your e-mail and password below to enjoy a faster checkout.
                             </p>
-                            <ul>
-                                <li>Email:</li>
-                                <li><input type="text" /></li>
-                            </ul>
-                            <ul>
-                                <li>Password:</li>
-                                <li><input type="password" /></li>
-                            </ul>
-                            <a href="">Sign In</a>
-                            <a href="">Forgot Your Password?</a>
+                            <fieldset>
+                              <label for="email">Email:</label>
+                              <input type="text" id="email" />
+                            </fieldset>
+                            <fieldset>
+                              <label for="emailpassword">Password:</label>
+                              <input type="password" id="emailpassword" />
+                            </fieldset>
+                            <div>
+                              <button class="btn-red">Sign In</button>
+                              <br />
+                              <a href="">Forgot Your Password?</a>
+                            </div>
                         </div>
                     </section>
-
                     <section class="co-cart-sum">
                         <ul>
                             <li>Cart Summary</li>
@@ -111,6 +164,7 @@
                                 <li>Total 2 Items</li>
                                 <li><strong>$000.00</strong></li>
                             </ul>
+                            <div class="sslsymbol"><img src="img/sslsymbol.jpg" alt="" /></div>
                         </div>
                     </section>
             

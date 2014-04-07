@@ -38,32 +38,34 @@
                             <dd><input type="radio" name="2days" value=""> <strong>2 Businesss Days</strong> - x to xx days - $xx.xx</dd>
                             <dd><input type="radio" name="standard" value=""> <strong>Standard Ground</strong> - x to xx days - $xx.xx</dd>
                         </dl>
+                        <hr />
                         <dl>
                             <dt><strong>India:</strong></dt>
                             <dd><input type="radio" name="priority" value=""> <strong>Priority Mail - x to xx days - $xx.xx</strong></dd>
                             <dd><input type="radio" name="standard" value=""> <strong>Standard - x to xx days - $xx.xx</strong></dd>
                         </dl>
-                        <a href="" class="btn-green">Continue Checkout <i class="icon-arrow-right"></i></a>
                     </div>
+                    <a href="" class="btn-red co-btn">Continue Checkout <i class="icon-arrow-right"></i></a>
                 </section>                
                 <aside class="co-right">
                     <section class="co-cart-sum">
                         <ul>
                             <li>Cart Summary</li>
+                            <li></li>
                         </ul>
                         <div>
-                            <ul>
-                                <li>1 Dangling Earings</li>
-                                <li><strong>$00.00</strong></li>
-                            </ul>
-                            <ul>
-                                <li>1 Dangling Earings</li>
-                                <li><strong>$00.00</strong></li>
-                            </ul>
-                            <ul class="co-total">
-                                <li>Total 2 Items</li>
-                                <li><strong>$000.00</strong></li>
-                            </ul>
+                            <dl>
+                                <dt>1 Dangling Earings</dt>
+                                <dd><strong>$00.00</strong></dd>
+                            </dl>
+                            <dl>
+                                <dt>1 Dangling Earings</dt>
+                                <dd><strong>$00.00</strong></dd>
+                            </dl>
+                            <dl class="co-total">
+                                <dt>Total 2 Items</dt>
+                                <dd><strong>$000.00</strong></dd>
+                            </dl>
                         </div>
                     </section>
                     <section class="co-shipad">

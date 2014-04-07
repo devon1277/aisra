@@ -27,26 +27,28 @@
             <div class="container checkout-pgs">   
                 <?php include("includes/breadcrumbs.php"); ?>
 
-                <div class="form-action">
+                <div class="odr-notcomplete">
                     <ul>
-                        <li>Your Order is not complete until you click</li>
-                        <li><input name="submit-order" type="button" value="Submit My Order" /></li>
+                        <li><p>Your Order is not complete until you click</p></li>
+                        <li>
+                          <button class="btn-red-flat"><i class="icon-lock"></i>&nbsp;&nbsp; Submit My Order <i class="icon-circle-arrow-right"></i></button>
+                        </li>
                     </ul>
                     <p><sup>**</sup>Once you click the submit button your order will be processed.</p>
                 </div>
 
                 <div class="co-left">
+                  <h1>Payment Method</h1>
                     <div>
-                        <h1>Payment Method</h1>
                         <p>Please note that all orders are subject to credit card approval and verification of billing address.</p>
-
                         <div class="payment-method">
                             <p><input name="credit-card" type="radio" value="" /> Pay with a Credit Card:</p>
+                            <img src="img/card-logos.jpg" alt="Payment Method" />
                         </div>
 
                         <form class="payment-info">
                             <fieldset>
-                                <label for="cardtype-id">Card Type</label>
+                                <label for="cardtype-id">Card Type:</label>
                                 <select name="country" id="cardtype-id">
                                     <option value="select-card">Select Card</option>
                                     <option value="visa">Visa</option>
@@ -56,14 +58,14 @@
                                 </select>
                             </fieldset>
                             <fieldset>
-                                <label for="cardnum-id">Card Number</label>
+                                <label for="cardnum-id">Card Number:</label>
                                 <input name="cardnum" type="text" id="cardnum-id" />
-                                <label for="verification-id">CVV (Verification#)</label>
+                                <label for="verification-id" class="cvv">CVV (Verification#):</label>
                                 <input name="verification" type="text" id="verification-id" />
                                 <a href="">What is this?</a>
                             </fieldset>
                             <fieldset>
-                                <label>Expiration</label>
+                                <label>Expiration:</label>
                                 <select name="mth">
                                     <option value="mth">Select Month</option>
                                 </select>
@@ -77,112 +79,139 @@
 
                         <div class="payment-method">
                             <p><input name="paypal" type="radio" value="" /> Pay with PayPal:</p>
+                            <img src="img/paypal.png" alt="Paypal" style="width: 100px;" />
                         </div>
                     </div> 
 
                     <div class="cart-summary">
-                        <ul class="grid-container">
-                            <li class="grid-1">Quantity</li>
-                            <li class="grid-3">Item Description</li>
-                            <li class="grid-2">Item Price</li>
-                            <li class="grid-2">Total</li>
-                        </ul>
-                        <div class="grid-container">
-                            <div class="grid-1">1</div>
-                            <div class="grid-3">
-                                <img src="http://dummyimage.com/100x100/333333/fff.jpg" />
-                                <ul>
-                                    <li><a href="">Product name will go here</a></li>
-                                    <li><span>Color:</span>Silver</li>
-                                    <li><span>Size</span>Dangling</li>
-                                    <li><span>Product ID#</span>1234</li>
-                                </ul>
-                                <ul>
-                                    <li><strong>In Stock</strong></li>
-                                    <li>Leaves warehouse in 1 - 2 full days.</li>
-                                </ul>
-                            </div>
-                            <div class="grid-2 item-price">
-                                $00.00
-                            </div>
-                            <div class="grid-2 total-price">
-                                $00.00
-                            </div>
-                        </div>
+                      <ul class="grid-container grid-hding">
+                        <li class="grid-1">Quantity</li>
+                        <li class="grid-3">Item Description</li>
+                        <li class="grid-2">Item Price</li>
+                        <li class="grid-2">Total Price</li>
+                      </ul>
+                      <ul class="grid-container">
+                        <li class="grid-1">1</li>
+                        <li class="grid-3 prod-co-summary">
+                          <div class="grid-img"><img src="http://dummyimage.com/100x100/333333/fff.jpg" /></div>
+                          <dl>
+                            <dt><a href="">Product Name Here</a></dt>
+                            <dd><span>Color:</span>Silver</dd>
+                            <dd><span>Size:</span>Dangling</dd>
+                            <dd><span>Product ID#:</span>1234</dd>
+                          </dl>
+                          <ul>
+                            <li><strong>In Stock</strong></li>
+                            <li>Leaves warehouse in 1 - 2 full days.</li>
+                          </ul>
+                        </li>
+                        <li class="grid-2 item-price">$00.00</li>
+                        <li class="grid-2 total-price">$00.00</li>
+                      </ul>
 
-                        <div class="grid-container">
-                            <div class="grid-1">1</div>
-                            <div class="grid-3">
-                                <img src="http://dummyimage.com/100x100/333333/fff.jpg" />
-                                <ul>
-                                    <li><a href="">Product name will go here</a></li>
-                                    <li><span>Color:</span>Silver</li>
-                                    <li><span>Size</span>Dangling</li>
-                                    <li><span>Product ID#</span>1234</li>
-                                </ul>
-                                <ul>
-                                    <li><strong>In Stock</strong></li>
-                                    <li>Leaves warehouse in 1 - 2 full days.</li>
-                                </ul>
-                            </div>
-                            <div class="grid-2 item-price">
-                                $00.00
-                            </div>
-                            <div class="grid-2 total-price">
-                                $00.00
-                            </div>
-                        </div>
-
-                        <div class="form-action">
-                            <ul>
-                                <li>Your Order is not complete until you click</li>
-                                <li><input name="submit-order" type="button" value="Submit My Order" /></li>
-                            </ul>
-                            <p><sup>**</sup>Once you click the submit button your order will be processed.</p>
-                        </div>
+                      <ul class="grid-container">
+                        <li class="grid-1">1</li>
+                        <li class="grid-3 prod-co-summary">
+                          <div class="grid-img"><img src="http://dummyimage.com/100x100/333333/fff.jpg" /></div>
+                          <dl>
+                            <dt><a href="">Product Name Here</a></dt>
+                            <dd><span>Color:</span>Silver</dd>
+                            <dd><span>Size:</span>Dangling</dd>
+                            <dd><span>Product ID#:</span>1234</dd>
+                          </dl>
+                          <ul>
+                            <li><strong>In Stock</strong></li>
+                            <li>Leaves warehouse in 1 - 2 full days.</li>
+                          </ul>
+                        </li>
+                        <li class="grid-2 item-price">$00.00</li>
+                        <li class="grid-2 total-price">$00.00</li>
+                      </ul>
+                      
                     </div>
+                    <div class="odr-notcomplete cart-action">
+                    <ul>
+                        <li><p>Your Order is not complete until you click</p></li>
+                        <li>
+                          <button class="btn-red-flat"><i class="icon-lock"></i>&nbsp;&nbsp; Submit My Order <i class="icon-circle-arrow-right"></i></button>
+                        </li>
+                    </ul>
+                    <p><sup>**</sup>Once you click the submit button your order will be processed.</p>
+                </div>
                 </div>                
 
                 <aside class="co-right">
-                    <section class="co-returning">
-                        <ul>
-                            <li>Returning Customer</li>
-                        </ul>
-                        <div>
-                            <p>
-                                If you are a returning customer, please enter your e-mail and password below to enjoy a faster checkout.
-                            </p>
-                            <ul>
-                                <li>Email:</li>
-                                <li><input type="text" /></li>
-                            </ul>
-                            <ul>
-                                <li>Password:</li>
-                                <li><input type="password" /></li>
-                            </ul>
-                            <a href="">Sign In</a>
-                            <a href="">Forgot Your Password?</a>
-                        </div>
-                    </section>
-
-                    <section class="co-cart-sum">
+                    <section>
                         <ul>
                             <li>Cart Summary</li>
                         </ul>
-                        <div>
+                        <div class="co-cart-summary">
+                            <dl>
+                              <dt>1 Dangling Earrings In A Red And Blue Color</dt>
+                              <dd>$00.00</dd>
+                              <dt><strong>Shipping &amp; Handling</strong></dt>
+                              <dd>$00.00</dd>
+                              <dt><strong>Sales Tax</strong></dt>
+                              <dd>$0.00</dd>
+                            </dl>
                             <ul>
-                                <li>1 Dangling Earings</li>
-                                <li><strong>$00.00</strong></li>
-                            </ul>
-                            <ul>
-                                <li>1 Dangling Earings</li>
-                                <li><strong>$00.00</strong></li>
-                            </ul>
-                            <ul class="co-total">
-                                <li>Total 2 Items</li>
-                                <li><strong>$000.00</strong></li>
+                              <li>Total Order Cost</li>
+                              <li><strong>$000.00</strong></li>
                             </ul>
                         </div>
+                    </section>
+                    <section>
+                      <ul>
+                        <li>Billing Address</li>
+                        <li class="edit"><a href="">Edit</a></li>
+                      </ul>
+                      <div>
+                        <ul>
+                          <li><strong>Devon Gonzales</strong></li>
+                          <li>Address 1 Here, Address 2 Here</li>
+                          <li>New York, NY 11414 - USA</li>
+                          <li>954-000-0000</li>
+                        </ul>
+                      </div>
+                    </section>
+                    <section>
+                      <ul>
+                        <li>Shipping Address</li>
+                        <li class="edit"><a href="">Edit</a></li>
+                      </ul>
+                      <div>
+                        <ul>
+                          <li><strong>Devon Gonzales</strong></li>
+                          <li>Address 1 Here, Address 2 Here</li>
+                          <li>New York, NY 11414 - USA</li>
+                          <li>954-000-0000</li>
+                        </ul>
+                      </div>
+                    </section>
+                    <section>
+                      <ul>
+                        <li>Shipping Method</li>
+                      </ul>
+                      <div class="shipping-method">
+                        <fieldset>
+                          <input type="radio" name="overnight" value="overnight">
+                          <p>
+                            <strong>Overnight</strong> - 0 to 00 days - <strong>$00.00</strong>
+                          </p>
+                        </fieldset>
+                        <fieldset>
+                          <input type="radio" name="overnight" value="overnight">
+                          <p>
+                            <strong>2 Business Days</strong> - 0 to 00 days - <strong>$00.00</strong>
+                          </p>
+                        </fieldset>
+                        <fieldset>
+                          <input type="radio" name="overnight" value="overnight">
+                          <p>
+                            <strong>Standard Ground</strong> - 0 to 00 days - <strong>$00.00</strong>
+                          </p>
+                        </fieldset>
+                      </div>
                     </section>
             
                 </aside>

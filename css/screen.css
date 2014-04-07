@@ -86,6 +86,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   background-color: red;
+  -webkit-transition: background .25s ease-in;
+  -moz-transition: background .25s ease-in;
+  -ms-transition: background .25s ease-in;
+  -o-transition: background .25s ease-in;
+  transition: background .25s ease-in;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #ff0000), color-stop(100%, #cc0000));
   background-image: -webkit-linear-gradient(#ff0000 60%, #cc0000);
   background-image: -moz-linear-gradient(#ff0000 60%, #cc0000);
@@ -112,20 +117,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   background-color: #39b54a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #39b54a), color-stop(100%, #00a651));
-  background-image: -webkit-linear-gradient(#39b54a 60%, #00a651);
-  background-image: -moz-linear-gradient(#39b54a 60%, #00a651);
-  background-image: -o-linear-gradient(#39b54a 60%, #00a651);
-  background-image: linear-gradient(#39b54a 60%, #00a651);
+  -webkit-transition: background .25s ease-in;
+  -moz-transition: background .25s ease-in;
+  -ms-transition: background .25s ease-in;
+  -o-transition: background .25s ease-in;
+  transition: background .25s ease-in;
 }
 .btn-green:hover {
   color: #fff;
   background-color: #000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #252525), color-stop(100%, #000000));
-  background-image: -webkit-linear-gradient(#252525 60%, #000000);
-  background-image: -moz-linear-gradient(#252525 60%, #000000);
-  background-image: -o-linear-gradient(#252525 60%, #000000);
-  background-image: linear-gradient(#252525 60%, #000000);
 }
 
 .btn-red-flat {
@@ -137,10 +137,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   background-color: #cc0000;
+  -webkit-transition: background .25s ease-in;
+  -moz-transition: background .25s ease-in;
+  -ms-transition: background .25s ease-in;
+  -o-transition: background .25s ease-in;
+  transition: background .25s ease-in;
 }
 .btn-red-flat:hover {
   color: #fff;
+  background-color: #000;
+}
+
+.btn-brown {
+  cursor: pointer;
+  padding: 8px 20px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   background-color: #cc6633;
+  -webkit-transition: background .25s ease-in;
+  -moz-transition: background .25s ease-in;
+  -ms-transition: background .25s ease-in;
+  -o-transition: background .25s ease-in;
+  transition: background .25s ease-in;
+}
+.btn-brown:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-lg {
+  font-size: 1.5em;
 }
 
 button {
@@ -164,6 +193,10 @@ a:hover {
   color: red;
 }
 
+hr {
+  border: 1px solid #ebebeb;
+}
+
 h1 {
   font: 800 2em/1.25em "Roboto", Myriad Pro, sans-serif;
 }
@@ -178,6 +211,10 @@ h2 {
 h2 + p {
   font-size: 1em;
   margin: 4px 0 0;
+}
+
+label {
+  cursor: pointer;
 }
 
 input[type="text"], input[type="password"] {
@@ -275,7 +312,9 @@ header .container {
 
 /*-----breadcrumbs-----*/
 .breadcrumbs {
-  padding: 10px 0 20px;
+  padding: 10px 0 10px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid whitesmoke;
 }
 .breadcrumbs li {
   display: inline;
@@ -1094,29 +1133,410 @@ footer a:hover {
   font-size: 1em;
 }
 
+.required {
+  color: #f00;
+}
+
+.grid-container {
+  border-bottom: 1px solid #ebebeb;
+  overflow: hidden;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+}
+.grid-container:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.grid-hding {
+  font-weight: bold;
+  color: #cc6633;
+  text-transform: uppercase;
+  border-bottom: 4px solid #ebebeb;
+  background-color: #f8f3dd;
+  padding: 10px 10px;
+  margin: -10px -10px 20px;
+}
+
+.grid-1 {
+  float: left;
+  width: 10%;
+}
+
+.grid-2 {
+  float: left;
+  width: 20%;
+}
+
+.grid-3 {
+  float: left;
+  width: 50%;
+}
+
+.prod-co-summary dl {
+  overflow: hidden;
+}
+.prod-co-summary dt {
+  font-size: 1.15em;
+  margin: 0 0 10px;
+}
+.prod-co-summary .grid-img {
+  border: 1px solid whitesmoke;
+  float: left;
+  margin: 0 20px 40px 0;
+}
+.prod-co-summary .grid-img img {
+  display: block;
+}
+.prod-co-summary span {
+  font-weight: bold;
+  display: inline-block;
+  width: 25%;
+}
+.prod-co-summary ul {
+  margin: 10px 0 0;
+}
+
+.co-cart-summary dl {
+  overflow: hidden;
+}
+.co-cart-summary dt {
+  display: inline-block;
+  clear: both;
+  width: 75%;
+  margin: 0 0 10px;
+}
+.co-cart-summary dd {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 10px;
+  padding: 0 0 0 5px;
+}
+.co-cart-summary ul {
+  font-size: 1.15em;
+  color: #cc0021;
+  border-top: 4px solid #ebebeb;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.co-cart-summary li {
+  float: left;
+}
+.co-cart-summary li:first-child {
+  width: 75%;
+}
+.co-cart-summary li strong {
+  padding: 0 0 0 5px;
+}
+
+.shipping-method fieldset {
+  overflow: hidden;
+  margin: 0 0 8px;
+}
+.shipping-method fieldset input {
+  display: inline;
+}
+.shipping-method fieldset p {
+  display: inline;
+}
+
 .checkout-pgs {
   overflow: hidden;
 }
 
 .co-left {
   float: left;
-  width: 75%;
+  width: 77%;
 }
 .co-left h1 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: whitesmoke;
-  padding: 10px;
-  margin-bottom: 10px;
+  color: #fff;
+  background-color: #cc6633;
+  padding: 14px 10px;
+  margin-bottom: 6px;
 }
 .co-left > div {
   border: 1px solid #ebebeb;
-  padding: 6px;
+  padding: 20px;
+  overflow: hidden;
+}
+.co-left > div p {
+  margin-bottom: 10px;
+}
+.co-left .co-btn {
+  font-size: 1.25em;
+  float: right;
+  margin: 10px 0 0;
+}
+.co-left hr {
+  margin: 20px 0;
 }
 
 .co-right {
   float: right;
   width: 20%;
+}
+.co-right section {
+  border: 1px solid #ebebeb;
+  margin-bottom: 10px;
+}
+.co-right section > ul {
+  font-size: 1.15em;
+  color: #fff;
+  padding: 14px 10px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  background-color: #cc6633;
+}
+.co-right section > ul li {
+  float: left;
+}
+.co-right section > ul li:first-child {
+  width: 70%;
+}
+.co-right section > ul li.edit {
+  text-align: right;
+  width: 30%;
+}
+.co-right section > ul li.edit a {
+  color: #ecdd8a;
+}
+.co-right section > ul li.edit a:hover {
+  color: #000;
+}
+.co-right section > ul a {
+  font-weight: normal;
+  color: #39c;
+}
+.co-right section > div {
+  padding: 10px;
+}
+
+.co-cart-sum > div dl {
+  padding: 0 0 10px 0;
+  overflow: hidden;
+}
+.co-cart-sum > div dl dt, .co-cart-sum > div dl dd {
+  float: left;
+  width: 50%;
+}
+.co-cart-sum > div dl dd {
+  text-align: right;
+}
+.co-cart-sum ul {
+  overflow: hidden;
+  padding: 0 0 10px;
+}
+.co-cart-sum li {
+  float: left;
+}
+.co-cart-sum li:first-child {
+  width: 70%;
+}
+
+.co-total {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #990000;
+  text-transform: uppercase;
+  border-top: 2px solid #ebebeb;
+  padding: 20px 0 !important;
+}
+
+.co-fields-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.co-social {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 200px;
+}
+
+.co-fbbtn img {
+  width: 120px;
+}
+
+.co-fields label {
+  display: inline-block;
+  width: 160px;
+}
+.co-fields fieldset {
+  margin: 0 0 8px;
+}
+.co-fields fieldset p {
+  display: inline-block;
+}
+.co-fields fieldset.long label {
+  width: 200px;
+  margin: 0 0 6px;
+}
+.co-fields input[type="text"], .co-fields input[type="password"] {
+  width: 25%;
+}
+.co-fields span {
+  color: #f00;
+}
+.co-fields .newsletter {
+  padding: 10px 0 0;
+  border-top: 1px solid #ebebeb;
+}
+.co-fields .cofields-btn {
+  text-align: right;
+}
+
+.co-fields-signin fieldset {
+  margin: 0 0 8px;
+}
+.co-fields-signin label {
+  display: inline-block;
+  width: 70px;
+}
+.co-fields-signin input[type="text"], .co-fields-signin input[type="password"] {
+  width: 60%;
+}
+.co-fields-signin .btn-red {
+  font-size: 1em;
+}
+.co-fields-signin > div {
+  text-align: center;
+}
+.co-fields-signin > p {
+  margin: 0 0 10px;
+}
+.co-fields-signin a {
+  color: #3399cc;
+}
+
+.sslsymbol {
+  text-align: center;
+}
+.sslsymbol img {
+  width: 50%;
+  height: auto;
+}
+
+.payment-method {
+  margin: 0 0 10px;
+}
+.payment-method p {
+  float: left;
+  padding: 7px 10px 0 0;
+}
+.payment-method img {
+  width: 200px;
+  height: auto;
+}
+
+.payment-info fieldset {
+  margin: 0 0 10px;
+}
+.payment-info label {
+  display: inline-block;
+  width: 80px;
+}
+.payment-info .cvv {
+  width: 110px;
+}
+.payment-info #cardnum-id {
+  width: 25%;
+  margin: 0 20px 0 0;
+}
+.payment-info #verification-id {
+  margin: 0 10px 0 0;
+}
+
+.odr-notcomplete {
+  text-align: center;
+  padding: 10px 0 20px;
+}
+.odr-notcomplete ul {
+  overflow: hidden;
+}
+.odr-notcomplete li {
+  display: inline-block;
+}
+.odr-notcomplete li p {
+  font-family: "Roboto", Myriad Pro, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0 10px 0 0;
+}
+.odr-notcomplete .btn-red-flat {
+  font-size: 1.15em;
+}
+
+.cart-action {
+  margin: 20px 0 0;
+  border: 0 !important;
+}
+
+.odr-notcomplete.cart-action {
+  padding: 0;
+  text-align: right;
+}
+
+.your-cart {
+  font-size: 1.25em;
+  border-bottom: 1px solid #ebebeb;
+  margin: 10px 0 20px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.your-cart li {
+  float: left;
+  width: 50%;
+}
+.your-cart li:last-child {
+  text-align: right;
+}
+.your-cart a {
+  color: #3399cc;
+}
+.your-cart span {
+  font-size: 2em;
+  font-family: "Roboto", Myriad Pro, sans-serif;
+}
+
+.co-secure {
+  border: 0 !important;
+  padding: 0 0 10px !important;
+}
+.co-secure img {
+  width: 110px;
+}
+.co-secure ul {
+  float: right;
+  overflow: hidden;
+}
+.co-secure li {
+  float: left;
+}
+.co-secure li:first-child {
+  margin-right: 10px;
+}
+.co-secure .btn-red-flat {
+  font-size: 1.15em;
+}
+
+.use-promo li {
+  display: inline-block;
+}
+
+.related-prod dl {
+  clear: both;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0 0 30px;
+}
+.related-prod dt {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.related-prod .btn-brown {
+  margin: 10px 0 0;
 }
 
 /* Landscape phone to portrait tablet */
